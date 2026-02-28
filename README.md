@@ -3,15 +3,18 @@
   🌙 Welcome to my digital corner
 -->
 
+
+<div align="center">
+
+![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20张子涵！&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20热爱交朋友%20·%20终身学习者&descAlignY=55&descAlign=50)
+
 # 👋 你好，我是 张子涵 (Zihan)!
 
-> ### 🎨 前端工程师 · AI 爱好者 · Vibe Coder
-> 
-> *"早岁已知世事艰，仍许飞鸿荡云间"*
-
-[![Visitor Count](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fz-Zihan&labelColor=%238b5cf6&color=%23ec4899&labelStyle=upper)](https://visitorbadge.io)
+[![Visitor](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fz-Zihan&labelColor=%238b5cf6&color=%23ec4899&labelStyle=upper)](https://visitorbadge.io)
 [![GitHub stars](https://img.shields.io/github/stars/z-Zihan?color=%238b5cf6&style=flat)](https://github.com/z-Zihan)
 [![Followers](https://img.shields.io/github/followers/z-Zihan?color=%2306b6d4&style=flat)](https://github.com/z-Zihan?tab=followers)
+
+> 🌟 *"早岁已知世事艰，仍许飞鸿荡云间"*
 
 ---
 
