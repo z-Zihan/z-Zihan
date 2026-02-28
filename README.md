@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20张子涵！&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20热爱交朋友%20·%20终身学习者&descAlignY=55&descAlign=50)
+![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20张子涵！&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20AI 爱好者%20·%20Vibe%20Coder&descAlignY=55&descAlign=50)
 
 # 👋 你好，我是 张子涵 (Zihan)!
 
@@ -19,28 +19,49 @@
 
 ## 🎯 关于我
 
-```typescript
-const zhangZihan = {
-  name: "张子涵 (Zihan)",
-  title: "前端工程师",
-  pronouns: "他/他",
-  location: "📍 中国",
-  personality: ["🤝 热爱交朋友", "💻 技术狂热", "📚 终身学习", "✨ 追求极致"],
-  currentlyWorkingOn: ["个人博客项目", "开源贡献", "技术分享"],
-  askMeAbout: ["前端开发", "React", "Vue", "Astro", "TypeScript", "UI/UX"],
-  funFact: "相信代码可以连接世界，认识更多有趣的人！✨"
-};
-```
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      
+      ### 👨‍💻 身份
+      - **前端工程师** 📱
+      - **AI 技术爱好者** 🤖
+      - **开源贡献者** 🌟
+      
+      ### 📍 基本信息
+      - 🏠 所在地：中国
+      - 💼 职业：前端开发
+      - 🎯 目标：全栈工程师
+      
+    </td>
+    <td valign="top" width="50%">
+      
+      ### ❤️ 热爱
+      - 🤝 热爱交朋友，欢迎交流
+      - 🚀 喜欢探索 AI 前沿技术
+      - 💫 热爱 Vibe Coding
+      - 📚 终身学习者
+      
+      ### 🎨 生活
+      - 🎮 游戏
+      - 🎵 音乐
+      - ✈️ 旅行
+      
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 💼 职业亮点
+## 💡 我的信条
 
-- 🔭 目前专注于 **前端开发** 与 **用户体验优化**
-- 🌱 正在学习 **Astro**、**Web Components** 等新技术
-- 💬 擅长 **技术分享** 与 **团队协作**
-- 📫 联系方式：欢迎通过下方社交链接与我交流
-- 🎯 目标：成为全栈工程师，打造优秀的产品体验
+> **"代码不仅仅是工具，它是连接人与可能性的桥梁。"**
+
+我相信：
+- 🌐 **技术无边界** - 开源精神让全世界开发者相连
+- 🤖 **AI 赋能未来** - 前沿 AI 技术将重塑开发体验
+- ✨ **Vibe Coding** - 在流畅的心流状态中创造美好代码
+- 🤝 **分享即成长** - 技术交流让彼此更强大
 
 ---
 
@@ -61,35 +82,32 @@ const zhangZihan = {
   <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,npm,yarn&theme=dark" alt="Tools"/>
 </p>
 
-### 后端 & 数据库（了解）
+### AI & 前沿技术
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,redis,docker&theme=dark" alt="Backend"/>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv&theme=dark" alt="AI Skills"/>
 </p>
 
 ---
 
-## 📊 GitHub 统计
+## 🔥 当前关注
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=z-Zihan&show_icons=true&theme=tokyonight&hide_border=true&title_color=8b5cf6&icon_color=ec4899&text_color=c4b5fd&bg_color=0d1117" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=z-Zihan&layout=compact&theme=tokyonight&hide_border=true&title_color=8b5cf6&text_color=c4b5fd&bg_color=0d1117" alt="Top Languages" height="180"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=z-Zihan&theme=tokyonight&hide_border=true&fire=8b5cf6&ring=ec4899&currStreakLabel=06b6d4" alt="GitHub Streak" height="180"/>
+| 🤖 AI 前沿 | 💫 Vibe Coding | 🚀 前端技术 |
+|-----------|---------------|------------|
+| LLM 应用开发<br>AI 辅助编程<br>智能 UI 生成 | 心流编程<br>AI Pair Programming<br>高效开发工作流 | Astro 4.0<br>Web Components<br>性能优化 |
+
 </div>
 
 ---
 
-## 🏆 成就
+## 📚 正在学习
 
-<div align="center">
-
-| 📅 贡献日历 | 🎯 成就奖杯 |
-|------------|------------|
-| <img src="https://ghchart.rshah.org/8b5cf6/z-Zihan" alt="Contribution Chart" width="400"/> | <img src="https://profile-trophy.vercel.app/?username=z-Zihan&theme=tokyonight&no-frame=true&row=1&column=4" alt="Trophies"/> |
-
-</div>
+- [ ] **LLM 与大模型应用** - 探索 AI 如何改变前端开发
+- [ ] **Vibe Coding 工作流** - 打造极致流畅的编程体验
+- [ ] **AI 辅助编程工具** - Cursor、Copilot 等深度使用
+- [ ] **Web Components** - 构建可复用的组件库
+- [ ] **Rust + WASM** - 高性能前端的新可能
 
 ---
 
@@ -98,16 +116,18 @@ const zhangZihan = {
 我热爱交朋友，欢迎来自世界各地的朋友与我交流！
 
 **可以和我聊：**
-- 💻 前端技术、框架选型、性能优化
-- 🎨 UI/UX 设计、用户体验
-- 📱 移动端开发、响应式设计
-- 🚀 职业发展、技术成长
-- 🎮 游戏、音乐、旅行（工作之外的生活）
+| 领域 | 话题 |
+|------|------|
+| 💻 技术 | 前端开发、AI 应用、Vibe Coding 工作流 |
+| 🎨 设计 | UI/UX、用户体验、交互设计 |
+| 🚀 职业 | 技术成长、职业发展、行业趋势 |
+| 🎮 生活 | 游戏、音乐、旅行、美食 |
 
 **我正在寻找：**
 - 👥 志同道合的技术伙伴
 - 🤝 开源项目合作机会
 - 💡 有趣的项目创意
+- 🌍 来自不同背景的朋友
 
 ---
 
@@ -127,25 +147,15 @@ const zhangZihan = {
     <img src="https://img.shields.io/badge/博客-ec4899?style=for-the-badge&logo=rss&logoColor=white" alt="Blog"/>
   </a>
   <a href="https://juejin.cn/user/your-id">
-    <img src="https://img.shields.io/badge/掘金-1e80ff?style=for-the-badge&logo=juejin&logoColor=white" alt="JueJin"/>
+    <img src="https://img.shields.io/badge/掘金 -1e80ff?style=for-the-badge&logo=juejin&logoColor=white" alt="JueJin"/>
   </a>
 </p>
 
 ---
 
-## 💡 最近在学习
+## 📝 博客/项目
 
-- [ ] Astro 4.0 新特性
-- [ ] Web Components 深入
-- [ ] TypeScript 高级类型
-- [ ] Rust + WASM
-- [ ] AI 与前端结合
-
----
-
-## 📝 博客/文章
-
-> 我的技术博客正在建设中... 敬请期待！
+> 🚧 个人博客和开源项目正在建设中... 敬请期待！
 
 ---
 
@@ -153,9 +163,9 @@ const zhangZihan = {
 
 **感谢访问我的主页！** 🎉
 
-**让我们一起交流，共同成长！** 🚀
+**让我们一起交流，用代码和 AI 创造美好未来！** 🚀
 
-Made with 💜 by 张子涵 (Zihan)
+Made with 💜 & 🤖 by 张子涵 (Zihan)
 
 ![Bottom Border](https://capsule-render.vercel.app/api?type=rect&color=8b5cf6,ec4899&height=10&section=footer)
 
