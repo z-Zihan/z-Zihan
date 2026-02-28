@@ -5,11 +5,11 @@
 
 <div align="center">
 
-![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20张子涵！&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20AI 爱好者%20·%20Vibe%20Coder&descAlignY=55&descAlign=50)
+![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20Zihan!&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20AI 爱好者%20·%20Vibe%20Coder&descAlignY=55&descAlign=50)
 
 # 👋 你好，我是 张子涵 (Zihan)!
 
-[![Visitor](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fz-Zihan&labelColor=%238b5cf6&color=%23ec4899&labelStyle=upper)](https://visitorbadge.io)
+[![Visitor Count](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fz-Zihan&labelColor=%238b5cf6&color=%23ec4899&labelStyle=upper)](https://visitorbadge.io)
 [![GitHub stars](https://img.shields.io/github/stars/z-Zihan?color=%238b5cf6&style=flat)](https://github.com/z-Zihan)
 [![Followers](https://img.shields.io/github/followers/z-Zihan?color=%2306b6d4&style=flat)](https://github.com/z-Zihan?tab=followers)
 
@@ -19,37 +19,21 @@
 
 ## 🎯 关于我
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      
-      ### 👨‍💻 身份
-      - **前端工程师** 📱
-      - **AI 技术爱好者** 🤖
-      - **开源贡献者** 🌟
-      
-      ### 📍 基本信息
-      - 🏠 所在地：中国
-      - 💼 职业：前端开发
-      - 🎯 目标：全栈工程师
-      
-    </td>
-    <td valign="top" width="50%">
-      
-      ### ❤️ 热爱
-      - 🤝 热爱交朋友，欢迎交流
-      - 🚀 喜欢探索 AI 前沿技术
-      - 💫 热爱 Vibe Coding
-      - 📚 终身学习者
-      
-      ### 🎨 生活
-      - 🎮 游戏
-      - 🎵 音乐
-      - ✈️ 旅行
-      
-    </td>
-  </tr>
-</table>
+### 👨‍💻 身份
+- **前端工程师** 📱
+- **AI 技术爱好者** 🤖  
+- **开源贡献者** 🌟
+
+### 📍 基本信息
+- 🏠 所在地：中国
+- 💼 职业：前端开发
+- 🎯 目标：全栈工程师
+
+### ❤️ 热爱
+- 🤝 热爱交朋友，欢迎交流
+- 🚀 喜欢探索 AI 前沿技术
+- 💫 热爱 Vibe Coding
+- 📚 终身学习者
 
 ---
 
@@ -77,27 +61,42 @@
   <img src="https://skillicons.dev/icons?i=react,vue,astro,nextjs,tailwind,webpack,vite&theme=dark" alt="Frontend Frameworks"/>
 </p>
 
-### 开发工具
+### AI 编程工具
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,npm,yarn&theme=dark" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" alt="AI Skills"/>
 </p>
 
-### AI & 前沿技术
+### 开发工具
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv&theme=dark" alt="AI Skills"/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,npm,yarn,docker&theme=dark" alt="Tools"/>
+</p>
+
+### 前沿技术
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-Expert-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/OpenClaw-Contributor-ec4899?style=for-the-badge" alt="OpenClaw"/>
+  <img src="https://img.shields.io/badge/LLM-应用开发-06b6d4?style=for-the-badge" alt="LLM"/>
+  <img src="https://img.shields.io/badge/Vibe_Coding-生活方式-10b981?style=for-the-badge" alt="Vibe Coding"/>
 </p>
 
 ---
 
 ## 🔥 当前关注
 
-<div align="center">
+### 🤖 AI 前沿
+- LLM 应用开发
+- AI 辅助编程
+- 智能 UI 生成
 
-| 🤖 AI 前沿 | 💫 Vibe Coding | 🚀 前端技术 |
-|-----------|---------------|------------|
-| LLM 应用开发<br>AI 辅助编程<br>智能 UI 生成 | 心流编程<br>AI Pair Programming<br>高效开发工作流 | Astro 4.0<br>Web Components<br>性能优化 |
+### 💫 Vibe Coding
+- 心流编程
+- AI Pair Programming
+- 高效开发工作流
 
-</div>
+### 🚀 前端技术
+- Astro 4.0
+- Web Components
+- 性能优化
 
 ---
 
@@ -105,9 +104,10 @@
 
 - [ ] **LLM 与大模型应用** - 探索 AI 如何改变前端开发
 - [ ] **Vibe Coding 工作流** - 打造极致流畅的编程体验
-- [ ] **AI 辅助编程工具** - Cursor、Copilot 等深度使用
+- [ ] **AI 辅助编程工具** - Cursor、Copilot、Claude Code 深度使用
 - [ ] **Web Components** - 构建可复用的组件库
 - [ ] **Rust + WASM** - 高性能前端的新可能
+- [ ] **OpenClaw 贡献** - 参与开源项目开发
 
 ---
 
@@ -116,6 +116,7 @@
 我热爱交朋友，欢迎来自世界各地的朋友与我交流！
 
 **可以和我聊：**
+
 | 领域 | 话题 |
 |------|------|
 | 💻 技术 | 前端开发、AI 应用、Vibe Coding 工作流 |
@@ -128,28 +129,6 @@
 - 🤝 开源项目合作机会
 - 💡 有趣的项目创意
 - 🌍 来自不同背景的朋友
-
----
-
-## 📬 联系我
-
-<p align="center">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/your-handle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://your-blog.com">
-    <img src="https://img.shields.io/badge/博客-ec4899?style=for-the-badge&logo=rss&logoColor=white" alt="Blog"/>
-  </a>
-  <a href="https://juejin.cn/user/your-id">
-    <img src="https://img.shields.io/badge/掘金 -1e80ff?style=for-the-badge&logo=juejin&logoColor=white" alt="JueJin"/>
-  </a>
-</p>
 
 ---
 
