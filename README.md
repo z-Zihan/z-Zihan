@@ -10,11 +10,10 @@
 
 # 👋 你好，我是 张子涵 (Zihan)!
 
-[![Visitor](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fz-Zihan&labelColor=%238b5cf6&color=%23ec4899&labelStyle=upper)](https://visitorbadge.io)
 [![GitHub stars](https://img.shields.io/github/stars/z-Zihan?color=%238b5cf6&style=flat)](https://github.com/z-Zihan)
 [![Followers](https://img.shields.io/github/followers/z-Zihan?color=%2306b6d4&style=flat)](https://github.com/z-Zihan?tab=followers)
 
-> 🌟 *"早岁已知世事艰，仍许飞鸿荡云间"*
+ 🌟 *"早岁已知世事艰，仍许飞鸿荡云间"*
 
 ---
 
@@ -26,7 +25,7 @@
 - **开源贡献者** 🌟
 
 ### 📍 基本信息
-- 🏠 所在地：中国
+- 🏠 所在地：中国.北京
 - 💼 职业：前端开发
 - 🎯 目标：全栈工程师
 
@@ -40,7 +39,7 @@
 
 ## 💡 我的信条
 
-> **"代码不仅仅是工具，它是连接人与可能性的桥梁。"**
+ **"代码不仅仅是工具，它是连接人与可能性的桥梁。"**
 
 我相信：
 - 🌐 **技术无边界** - 开源精神让全世界开发者相连
@@ -59,12 +58,12 @@
 
 ### 前端框架
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vue,astro,nextjs,tailwind,webpack,vite&theme=dark" alt="Frontend Frameworks"/>
+  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,tailwind,webpack,vite&theme=dark" alt="Frontend Frameworks"/>
 </p>
 
 ### AI 编程工具
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&theme=dark" alt="AI Skills"/>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv&theme=dark" alt="AI Skills"/>
 </p>
 
 ### 开发工具
@@ -95,7 +94,6 @@
 - 高效开发工作流
 
 ### 🚀 前端技术
-- Astro 4.0
 - Web Components
 - 性能优化
 
@@ -135,13 +133,11 @@
 
 ## 📝 博客/项目
 
-> 🚧 个人博客和开源项目正在建设中... 敬请期待！
+ 🚧 个人博客和开源项目正在建设中... 敬请期待！
 
 ---
 
 <div align="center">
-
----
 
 **感谢访问我的主页！** 🎉
 
