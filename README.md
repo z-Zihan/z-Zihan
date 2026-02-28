@@ -3,17 +3,15 @@
   🌙 Welcome to my digital corner
 -->
 
-<div align="center">
-
-![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20Zihan!&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20AI 爱好者%20·%20Vibe%20Coder&descAlignY=55&descAlign=50)
-
 # 👋 你好，我是 张子涵 (Zihan)!
+
+> ### 🎨 前端工程师 · AI 爱好者 · Vibe Coder
+> 
+> *"早岁已知世事艰，仍许飞鸿荡云间"*
 
 [![Visitor Count](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fz-Zihan&labelColor=%238b5cf6&color=%23ec4899&labelStyle=upper)](https://visitorbadge.io)
 [![GitHub stars](https://img.shields.io/github/stars/z-Zihan?color=%238b5cf6&style=flat)](https://github.com/z-Zihan)
 [![Followers](https://img.shields.io/github/followers/z-Zihan?color=%2306b6d4&style=flat)](https://github.com/z-Zihan?tab=followers)
-
-> 🌟 *"早岁已知世事艰，仍许飞鸿荡云间"*
 
 ---
 
@@ -140,12 +138,12 @@
 
 <div align="center">
 
+---
+
 **感谢访问我的主页！** 🎉
 
 **让我们一起交流，用代码和 AI 创造美好未来！** 🚀
 
 Made with 💜 & 🤖 by 张子涵 (Zihan)
-
-![Bottom Border](https://capsule-render.vercel.app/api?type=rect&color=8b5cf6,ec4899&height=10&section=footer)
 
 </div>
