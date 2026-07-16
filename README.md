@@ -1,14 +1,22 @@
+<!--
+  Hi there! Thanks for visiting my GitHub profile!
+  🌙 Welcome to my digital corner
+-->
+
+
 <div align="center">
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,20,24&height=280&section=header&text=Hi,%20I'm%20张子涵！&fontSize=55&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Frontend%20Engineer%20·%20Open%20Source%20·%20Lifelong%20Learner&descAlignY=55&descAlign=50)
+![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20张子涵！&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20热爱交朋友%20·%20终身学习者&descAlignY=55&descAlign=50)
 
-[![Stars](https://img.shields.io/github/stars/z-Zihan?color=8b5cf6&style=flat-square&logo=star&label=Stars)](https://github.com/z-Zihan)
-[![Followers](https://img.shields.io/github/followers/z-Zihan?color=06b6d4&style=flat-square&logo=github&label=Followers)](https://github.com/z-Zihan?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=z-Zihan&color=ec4899&style=flat-square&label=Views)](https://github.com/z-Zihan)
+# 👋 你好，我是 张子涵 (Zihan)!
+
+[![GitHub stars](https://img.shields.io/github/stars/z-Zihan?color=%238b5cf6&style=flat)](https://github.com/z-Zihan)
+[![Followers](https://img.shields.io/github/followers/z-Zihan?color=%2306b6d4&style=flat)](https://github.com/z-Zihan?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=z-Zihan&color=ec4899&style=flat&label=Profile+Views)](https://github.com/z-Zihan)
+
+ 🌟 *"早岁已知世事艰，仍许飞鸿荡云间"*
 
 </div>
-
-> *"早岁已知世事艰，仍许飞鸿荡云间"* ⛰️
 
 <!-- vibe-coding:start -->
 <p align="center">
@@ -22,32 +30,96 @@
 
 ---
 
-## 🎯 About Me
+## 🎯 关于我
 
-| 💼 Role | 📍 Location | 🐣 GitHub |
-|---------|-------------|-----------|
-| Frontend Engineer | Beijing, China | Since 2019 |
+### 👨💻 身份
+- **前端工程师** 📱
+- **AI 技术爱好者** 🤖  
+- **开源贡献者** 🌟
 
-- 🤖 **AI Explorer** — experimenting with Vibe Coding & AI-powered development
-- 🌟 **Open Source** — maintaining [awesome-skills](https://github.com/z-Zihan/awesome-skills) 
-- 📱 **Frontend** — Vue / React / TypeScript / Electron
-- 🚀 **Goal** — Full-stack Engineer
+### 📍 基本信息
+- 🏠 所在地：中国.北京
+- 💼 职业：前端开发
+- 🎯 目标：全栈工程师
+
+### ❤️ 热爱
+- 🤝 热爱交朋友，欢迎交流
+- 🚀 喜欢探索 AI 前沿技术
+- 💫 热爱 Vibe Coding
+- 📚 终身学习者
 
 ---
 
-## 🛠 Tech Stack
+## 💡 我的信条
 
-[![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)](https://www.electronjs.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+ **"代码不仅仅是工具，它是连接人与可能性的桥梁。"**
+
+我相信：
+- 🌐 **技术无边界** - 开源精神让全世界开发者相连
+- 🤖 **AI 赋能未来** - 前沿 AI 技术将重塑开发体验
+- ✨ **Vibe Coding** - 在流畅的心流状态中创造美好代码
+- 🤝 **分享即成长** - 技术交流让彼此更强大
+
+---
+
+## 🛠️ 技术栈
+
+### 核心技能
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,typescript&theme=dark" alt="Core Skills"/>
+</p>
+
+### 前端框架
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,tailwind,webpack,vite&theme=dark" alt="Frontend Frameworks"/>
+</p>
+
+### AI 编程工具
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv&theme=dark" alt="AI Skills"/>
+</p>
+
+### 开发工具
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,npm,yarn,docker&theme=dark" alt="Tools"/>
+</p>
+
+### 前沿技术
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-Expert-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/OpenClaw-Contributor-ec4899?style=for-the-badge" alt="OpenClaw"/>
+  <img src="https://img.shields.io/badge/LLM-应用开发-06b6d4?style=for-the-badge" alt="LLM"/>
+  <img src="https://img.shields.io/badge/Vibe_Coding-生活方式-10b981?style=for-the-badge" alt="Vibe Coding"/>
+</p>
+
+---
+
+## 🔥 当前关注
+
+### 🤖 AI 前沿
+- LLM 应用开发
+- AI 辅助编程
+- 智能 UI 生成
+
+### 💫 Vibe Coding
+- 心流编程
+- AI Pair Programming
+- 高效开发工作流
+
+### 🚀 前端技术
+- Web Components
+- 性能优化
+
+---
+
+## 📚 正在学习
+
+- [ ] **LLM 与大模型应用** - 探索 AI 如何改变前端开发
+- [ ] **Vibe Coding 工作流** - 打造极致流畅的编程体验
+- [ ] **AI 辅助编程工具** - Cursor、Copilot、Claude Code 深度使用
+- [ ] **Web Components** - 构建可复用的组件库
+- [ ] **Rust + WASM** - 高性能前端的新可能
+- [ ] **OpenClaw 贡献** - 参与开源项目开发
 
 ---
 
@@ -63,6 +135,39 @@
 
 ---
 
+## 🤝 交个朋友
+
+我热爱交朋友，欢迎来自世界各地的朋友与我交流！
+
+**可以和我聊：**
+
+| 领域 | 话题 |
+|------|------|
+| 💻 技术 | 前端开发、AI 应用、Vibe Coding 工作流 |
+| 🎨 设计 | UI/UX、用户体验、交互设计 |
+| 🚀 职业 | 技术成长、职业发展、行业趋势 |
+| 🎮 生活 | 游戏、音乐、旅行、美食 |
+
+**我正在寻找：**
+- 👥 志同道合的技术伙伴
+- 🤝 开源项目合作机会
+- 💡 有趣的项目创意
+- 🌍 来自不同背景的朋友
+
+---
+
+## 📝 博客/项目
+
+ [🚧 欢迎来我的博客看看，希望您能再留言板留下你的足迹！](https://zzihanaini.vercel.app/)
+
+---
+
 <div align="center">
-  <i>✨ Code is the bridge between ideas and reality. Let's build something amazing together.</i>
+
+**感谢访问我的主页！** 🎉
+
+**让我们一起交流，用代码和 AI 创造美好未来！** 🚀
+
+Made with 💜 & 🤖 by 张子涵 (Zihan)
+
 </div>
