@@ -1,20 +1,22 @@
 <!--
-  Hi there! Thanks for visiting my GitHub profile!
+  Hi there! Thanks for visiting my profile!
   🌙 Welcome to my digital corner
 -->
 
+<!-- Default: English | 默认: 英文 -->
+<!-- 🌐 Multi-language: see language switcher below -->
 
 <div align="center">
 
-![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20张子涵！&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=前端工程师%20·%20热爱交朋友%20·%20终身学习者&descAlignY=55&descAlign=50)
+![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=8b5cf6,ec4899,06b6d4&height=300&section=header&text=Hi,%20I'm%20Zihan!&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Frontend%20Engineer%20·%20AI%20Explorer%20·%20Lifelong%20Learner&descAlignY=55&descAlign=50)
 
-# 👋 你好，我是 张子涵 (Zihan)!
+# 👋 Hi, I'm Zihan (张子涵)!
 
 [![GitHub stars](https://img.shields.io/github/stars/z-Zihan?color=%238b5cf6&style=flat)](https://github.com/z-Zihan)
 [![Followers](https://img.shields.io/github/followers/z-Zihan?color=%2306b6d4&style=flat)](https://github.com/z-Zihan?tab=followers)
 [![Profile Views](https://komarev.com/ghpvc/?username=z-Zihan&color=ec4899&style=flat&label=Profile+Views)](https://github.com/z-Zihan)
 
- 🌟 *"早岁已知世事艰，仍许飞鸿荡云间"*
+ 🌟 *"Through every storm, still I chase the sky."*
 
 </div>
 
@@ -30,144 +32,156 @@
 
 ---
 
-## 🎯 关于我
+## 🎯 About Me
 
-### 👨💻 身份
-- **前端工程师** 📱
-- **AI 技术爱好者** 🤖  
-- **开源贡献者** 🌟
+### 👨‍💻 Identity
+- **Frontend Engineer** 📱
+- **AI Tech Enthusiast** 🤖
+- **Open Source Contributor** 🌟
 
-### 📍 基本信息
-- 🏠 所在地：中国.北京
-- 💼 职业：前端开发
-- 🎯 目标：全栈工程师
+### 📍 Basic Info
+- 🏠 Location: Beijing, China
+- 💼 Occupation: Frontend Development
+- 🎯 Goal: Full-stack Engineer
 
-### ❤️ 热爱
-- 🤝 热爱交朋友，欢迎交流
-- 🚀 喜欢探索 AI 前沿技术
-- 💫 热爱 Vibe Coding
-- 📚 终身学习者
-
----
-
-## 💡 我的信条
-
- **"代码不仅仅是工具，它是连接人与可能性的桥梁。"**
-
-我相信：
-- 🌐 **技术无边界** - 开源精神让全世界开发者相连
-- 🤖 **AI 赋能未来** - 前沿 AI 技术将重塑开发体验
-- ✨ **Vibe Coding** - 在流畅的心流状态中创造美好代码
-- 🤝 **分享即成长** - 技术交流让彼此更强大
+### ❤️ Passions
+- 🤝 Making friends — always open to chat
+- 🚀 Exploring cutting-edge AI
+- 💫 Vibe Coding enthusiast
+- 📚 Lifelong learner
 
 ---
 
-## 🛠️ 技术栈
+## 💡 My Credo
 
-### 核心技能
+*"Code is not just a tool — it's a bridge between people and possibilities."*
+
+I believe in:
+- 🌐 **Tech Without Borders** — Open source connects developers worldwide
+- 🤖 **AI Empowers the Future** — Frontier AI reshapes how we build
+- ✨ **Vibe Coding** — Creating beautiful code in flow state
+- 🤝 **Sharing is Growth** — Tech exchanges make us all stronger
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Skills
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,javascript,typescript&theme=dark" alt="Core Skills"/>
 </p>
 
-### 前端框架
+### Frontend Frameworks
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,tailwind,webpack,vite&theme=dark" alt="Frontend Frameworks"/>
+  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,svelte,solidjs,vite&theme=dark" alt="Frontend Frameworks"/>
 </p>
 
-### AI 编程工具
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv&theme=dark" alt="AI Skills"/>
-</p>
-
-### 开发工具
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,npm,yarn,docker&theme=dark" alt="Tools"/>
-</p>
-
-### 前沿技术
+### AI & LLM Tools
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-Expert-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/ Codex-User-10b981?style=for-the-badge&logo=openai&logoColor=white" alt="Codex"/>
   <img src="https://img.shields.io/badge/OpenClaw-Contributor-ec4899?style=for-the-badge" alt="OpenClaw"/>
-  <img src="https://img.shields.io/badge/LLM-应用开发-06b6d4?style=for-the-badge" alt="LLM"/>
-  <img src="https://img.shields.io/badge/Vibe_Coding-生活方式-10b981?style=for-the-badge" alt="Vibe Coding"/>
+  <img src="https://img.shields.io/badge/Hermes-AI_Agent-06b6d4?style=for-the-badge" alt="Hermes"/>
+  <img src="https://img.shields.io/badge/LLM-App_Dev-f59e0b?style=for-the-badge" alt="LLM"/>
+</p>
+
+### Development Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,notion,npm,docker&theme=dark" alt="Dev Tools"/>
+</p>
+
+### Frontend & Beyond
+<p align="center">
+  <img src="https://img.shields.io/badge/Vibe_Coding-Lifestyle-8b5cf6?style=for-the-badge" alt="Vibe Coding"/>
+  <img src="https://img.shields.io/badge/WASM-Exploring-06b6d4?style=for-the-badge" alt="WASM"/>
+  <img src="https://img.shields.io/badge/Rust-Learning-f59e0b?style=for-the-badge" alt="Rust"/>
 </p>
 
 ---
 
-## 🔥 当前关注
+## 🔥 Currently Focused On
 
-### 🤖 AI 前沿
-- LLM 应用开发
-- AI 辅助编程
-- 智能 UI 生成
+### 🤖 AI Frontier
+- LLM Application Development
+- AI-Assisted Programming
+- Intelligent UI Generation
 
 ### 💫 Vibe Coding
-- 心流编程
+- Flow-state Programming
 - AI Pair Programming
-- 高效开发工作流
+- High-efficiency Dev Workflows
 
-### 🚀 前端技术
+### 🚀 Frontend Tech
 - Web Components
-- 性能优化
+- Performance Optimization
 
 ---
 
-## 📚 正在学习
+## 📚 Learning
 
-- [ ] **LLM 与大模型应用** - 探索 AI 如何改变前端开发
-- [ ] **Vibe Coding 工作流** - 打造极致流畅的编程体验
-- [ ] **AI 辅助编程工具** - Cursor、Copilot、Claude Code 深度使用
-- [ ] **Web Components** - 构建可复用的组件库
-- [ ] **Rust + WASM** - 高性能前端的新可能
-- [ ] **OpenClaw 贡献** - 参与开源项目开发
-
----
-
-## 🌟 Featured
-
-<a href="https://github.com/z-Zihan/awesome-skills">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=z-Zihan&repo=awesome-skills&theme=github-dark&show_owner=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=z-Zihan&repo=awesome-skills&theme=default&show_owner=true">
-    <img alt="awesome-skills" src="https://github-readme-stats.vercel.app/api/pin/?username=z-Zihan&repo=awesome-skills&show_owner=true" width="400">
-  </picture>
-</a>
+- [ ] **LLM & Large Model Apps** — How AI transforms frontend dev
+- [ ] **Vibe Coding Workflows** — Crafting the ultimate coding flow
+- [ ] **AI Coding Tools** — Claude Code, Codex & Hermes deep dive
+- [ ] **Web Components** — Building reusable component libraries
+- [ ] **Rust + WASM** — New possibilities for high-perf frontend
 
 ---
 
-## 🤝 交个朋友
+## 🌟 Featured Project
 
-我热爱交朋友，欢迎来自世界各地的朋友与我交流！
-
-**可以和我聊：**
-
-| 领域 | 话题 |
-|------|------|
-| 💻 技术 | 前端开发、AI 应用、Vibe Coding 工作流 |
-| 🎨 设计 | UI/UX、用户体验、交互设计 |
-| 🚀 职业 | 技术成长、职业发展、行业趋势 |
-| 🎮 生活 | 游戏、音乐、旅行、美食 |
-
-**我正在寻找：**
-- 👥 志同道合的技术伙伴
-- 🤝 开源项目合作机会
-- 💡 有趣的项目创意
-- 🌍 来自不同背景的朋友
+<div align="center">
+  <a href="https://github.com/z-Zihan/awesome-skills">
+    <img src="https://img.shields.io/badge/⭐_awesome--skills-OpenClaw_Skills_Repo-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="awesome-skills"/>
+  </a>
+  <br/>
+  <a href="https://github.com/z-Zihan/awesome-skills">
+    <img src="https://img.shields.io/github/stars/z-Zihan/awesome-skills?style=social" alt="stars"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/z-Zihan/awesome-skills">
+    <img src="https://img.shields.io/badge/OpenClaw-Skills_Collection-ec4899?style=flat-square" alt="OpenClaw Skills"/>
+  </a>
+  <br/>
+  <sub>📚 A collection of OpenClaw skills — CI/CD auto-publish to ClawHub</sub>
+</div>
 
 ---
 
-## 📝 博客/项目
+## 🤝 Let's Connect
 
- [🚧 欢迎来我的博客看看，希望您能再留言板留下你的足迹！](https://zzihanaini.vercel.app/)
+I love making friends — feel free to reach out from anywhere in the world!
+
+**Let's talk about:**
+
+| Area | Topics |
+|------|--------|
+| 💻 Tech | Frontend, AI Apps, Vibe Coding |
+| 🎨 Design | UI/UX, User Experience, Interaction |
+| 🚀 Career | Growth, Dev, Industry Trends |
+| 🎮 Life | Games, Music, Travel, Food |
+
+**Looking for:**
+- 👥 Like-minded tech partners
+- 🤝 Open source collaboration
+- 💡 Interesting project ideas
+- 🌍 Friends from diverse backgrounds
+
+---
+
+<!-- 📝 Blog section temporarily disabled
+## 📝 Blog
+
+[🚧 Visit my blog and leave a footprint!](https://zzihanaini.vercel.app/)
+-->
 
 ---
 
 <div align="center">
 
-**感谢访问我的主页！** 🎉
+**Thanks for visiting!** 🎉
 
-**让我们一起交流，用代码和 AI 创造美好未来！** 🚀
+**Let's connect and build the future with code & AI!** 🚀
 
-Made with 💜 & 🤖 by 张子涵 (Zihan)
+Made with 💜 & 🤖 by Zihan
 
 </div>
