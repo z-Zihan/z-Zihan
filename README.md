@@ -3,8 +3,11 @@
   🌙 Welcome to my digital corner
 -->
 
-<!-- Default: English | 默认: 英文 -->
-<!-- 🌐 Multi-language: see language switcher below -->
+<div align="center">
+
+**🌐 [English](README.md)** | **[中文](README.zh.md)**
+
+</div>
 
 <div align="center">
 
