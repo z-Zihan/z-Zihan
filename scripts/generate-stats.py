@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Generate vibe-coding SVGs with live GitHub stats."""
+"""Generate vibe-coding SVGs with live GitHub stats — Glassmorphism redesign."""
 
 import json
-import math
 import os
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 
 USERNAME = "z-Zihan"
 BASE_URL = f"https://api.github.com/users/{USERNAME}"
@@ -23,147 +22,108 @@ def api(url: str) -> dict:
         return json.loads(resp.read().decode())
 
 
-def lang_color(name: str) -> str:
-    colors = {
-        "Python": "#3776AB",
-        "JavaScript": "#F7DF1E",
-        "TypeScript": "#3178C6",
-        "Vue": "#4FC08D",
-        "CSS": "#1572B6",
-        "HTML": "#E34F26",
-        "Shell": "#89E051",
-        "Dockerfile": "#2496ED",
-    }
-    return colors.get(name, "#8b949e")
-
-
-def svg_lang_gradient_stops(langs: list[tuple[str, float]]) -> str:
-    """Build a horizontal gradient from language colors."""
-    total = sum(pct for _, pct in langs)
-    stops = []
-    offset = 0
-    for name, pct in langs:
-        frac = pct / total
-        color = lang_color(name)
-        stops.append(f"""<stop offset="{offset:.1%}" stop-color="{color}"/>""")
-        stops.append(f"""<stop offset="{(offset+frac):.1%}" stop-color="{color}"/>""")
-        offset += frac
-    return "\n      ".join(stops)
-
-
 def generate_svg(theme: str) -> None:
-    """Generate a single theme SVG."""
     try:
         user = api(BASE_URL)
         repos = api(f"{BASE_URL}/repos?per_page=50&type=owner&sort=updated")
         stars = sum(r.get("stargazers_count", 0) for r in repos)
         followers = user.get("followers", 0)
+        repo_count = user.get("public_repos", len(repos))
         created = datetime.fromisoformat(user["created_at"].replace("Z", "+00:00"))
-        years = (datetime.utcnow() - created.replace(tzinfo=None)).days // 365
+        now = datetime.now(timezone.utc)
+        years = (now - created).days // 365
+
+        updated = datetime.fromisoformat(user["updated_at"].replace("Z", "+00:00"))
+        days_ago = (now - updated).days
+        if days_ago == 0:
+            last_active = "today"
+        elif days_ago == 1:
+            last_active = "yesterday"
+        elif days_ago < 30:
+            last_active = f"{days_ago}d ago"
+        elif days_ago < 365:
+            last_active = f"{days_ago // 30}m ago"
+        else:
+            last_active = f"{days_ago // 365}y ago"
     except Exception as e:
         print(f"⚠️ API error: {e}")
-        stars, followers, years = 6, 3, 7
-
-    # Aggregate languages
-    lang_totals: dict[str, int] = {}
-    for r in repos:
-        lang = r.get("language")
-        if lang:
-            lang_totals[lang] = lang_totals.get(lang, 0) + 1
-    total = sum(lang_totals.values()) or 1
-    top_langs = sorted(lang_totals.items(), key=lambda x: -x[1])[:5]
-
-    # Language bar data: each row is (name, count, pct, pct_str)
-    lang_rows = [(n, c, c / total, f"{c/total:.0%}") for n, c in top_langs]
+        stars, followers, repo_count, years, last_active = 6, 6, 2, 7, "recently"
 
     dark = theme == "dark"
     bg = "#0d1117" if dark else "#ffffff"
-    bg2 = "#161b22" if dark else "#f6f8fa"
     text = "#e6edf3" if dark else "#24292f"
     muted = "#7d8590" if dark else "#656d76"
     border = "#30363d" if dark else "#d0d7de"
+    card_bg = "#161b22" if dark else "#f6f8fa"
+    card_border = "#21262d" if dark else "#d0d7de"
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_root = os.path.dirname(script_dir)
-    # Read README to get the vibe-coding block without duplicating
-    readme_path = os.path.join(repo_root, "README.md")
+    stats = [
+        ("⭐", "Total Stars", str(stars)),
+        ("👥", "Followers", str(followers)),
+        ("📦", "Public Repos", str(repo_count)),
+        ("📅", "GitHub Since", f"{years}y"),
+        ("🕐", "Last Active", last_active),
+    ]
 
-    # Build lang bars
-    bars = ""
-    y = 172
-    for name, count, pct, pct_str in lang_rows:
-        bar_w = max(int(200 * pct), 4)
-        bars += f"""
-  <text x="30" y="{y}" font-family="system-ui, sans-serif" font-size="12" fill="{text}">{name}</text>
-  <rect x="100" y="{y-8}" width="{bar_w}" height="10" rx="5" fill="{lang_color(name)}">
-    <animate attributeName="width" values="0;{bar_w}" dur="1s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-  </rect>
-  <text x="{108 + bar_w}" y="{y}" font-family="system-ui, sans-serif" font-size="11" fill="{muted}">{pct_str}</text>"""
-        y += 22
+    W = 840
+    H = 165
+    card_w = 140
+    card_h = 72
+    card_gap = 14
+    total_w = len(stats) * card_w + (len(stats) - 1) * card_gap
+    start_x = (W - total_w) / 2
+    card_y = 58
 
-    # Height based on number of language rows
-    svg_height = max(210, 170 + len(lang_rows) * 22)
+    cards_svg = ""
+    for i, (icon, label, value) in enumerate(stats):
+        x = start_x + i * (card_w + card_gap)
+        cx = x + card_w / 2
 
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="840" height="{svg_height}" viewBox="0 0 840 {svg_height}" fill="none">
+        cards_svg += f"""
+  <rect x="{x:.0f}" y="{card_y}" width="{card_w}" height="{card_h}" rx="10"
+        fill="{card_bg}" stroke="{card_border}" stroke-width="1"/>"""
+        cards_svg += f"""
+  <rect x="{x + 10:.0f}" y="{card_y}" width="{card_w - 20}" height="2" rx="1"
+        fill="url(#accent)" opacity="0.45"/>"""
+        cards_svg += f"""
+  <text x="{cx:.0f}" y="{card_y + 24}" font-family="system-ui,-apple-system,sans-serif"
+        font-size="11" fill="{muted}" text-anchor="middle">{icon} {label}</text>"""
+        v_size = 26 if len(value) <= 3 else 20 if len(value) <= 6 else 16
+        cards_svg += f"""
+  <text x="{cx:.0f}" y="{card_y + 52}" font-family="system-ui,-apple-system,sans-serif"
+        font-size="{v_size}" font-weight="700" fill="{text}" text-anchor="middle">{value}</text>"""
+
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" fill="none">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="{bg}"/>
-      <stop offset="100%" stop-color="{bg2}"/>
+      <stop offset="100%" stop-color="{card_bg}"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8b5cf6"/>
       <stop offset="50%" stop-color="#ec4899"/>
       <stop offset="100%" stop-color="#06b6d4"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="840" height="{svg_height}" rx="16" fill="url(#bgGrad)" stroke="{border}" stroke-width="1"/>
+  <rect width="{W}" height="{H}" rx="12" fill="url(#bgGrad)" stroke="{border}" stroke-width="1"/>
 
-  <text x="30" y="42" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="{text}">⚡ Vibe Coding Stats</text>
-  <rect x="30" y="50" width="0" height="3" rx="1.5" fill="url(#accent)">
-    <animate attributeName="width" values="0;120" dur="1s" fill="freeze"/>
-  </rect>
+  <text x="30" y="34" font-family="system-ui,-apple-system,sans-serif" font-size="14"
+        font-weight="700" fill="{text}">⚡ Vibe Coding Stats</text>
+  <rect x="30" y="40" width="70" height="2.5" rx="1.25" fill="url(#accent)"/>
+{cards_svg}
 
-  <text x="30" y="85" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">⭐ Total Stars</text>
-  <text x="30" y="110" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="{text}" filter="url(#glow)">{stars}</text>
-
-  <text x="180" y="85" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">👥 Followers</text>
-  <text x="180" y="110" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="{text}" filter="url(#glow)">{followers}</text>
-
-  <text x="340" y="85" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">📦 Repos</text>
-  <text x="340" y="110" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="{text}" filter="url(#glow)">{len(repos)}</text>
-
-  <text x="500" y="85" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">📅 GitHub Since</text>
-  <text x="500" y="110" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="{text}" filter="url(#glow)">{years} years</text>
-
-  <text x="640" y="85" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">🕐 Updated</text>
-  <text x="640" y="110" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">{datetime.utcnow().strftime("%Y-%m-%d")}</text>
-
-  <line x1="30" y1="132" x2="810" y2="132" stroke="{border}" stroke-width="1"/>
-
-  <text x="30" y="158" font-family="system-ui, sans-serif" font-size="13" fill="{muted}">🔧 Languages</text>
-{bars}
-
-  <circle cx="815" cy="30" r="4" fill="#06b6d4">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="788" y="42" font-family="system-ui, sans-serif" font-size="10" fill="{muted}" text-anchor="end">LIVE</text>
-
-  <rect x="0" y="{svg_height-4}" width="840" height="4" rx="2" fill="url(#accent)" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="30" y="{H - 12}" width="{W - 60}" height="1" rx="0.5" fill="url(#accent)" opacity="0.3"/>
+  <text x="{W - 28}" y="{H - 16}" font-family="system-ui,-apple-system,sans-serif" font-size="9"
+        fill="{muted}" text-anchor="end">Updated {date_str}</text>
 </svg>"""
 
     out = os.path.join(ASSETS, f"vibe-coding-{theme}.svg")
     with open(out, "w") as f:
         f.write(svg)
     size_kb = len(svg) / 1024
-    print(f"✅ {out} ({size_kb:.1f} KB) — ⭐{stars} 👥{followers} 📦{len(repos)}")
+    print(f"✅ {out} ({size_kb:.1f} KB) — ⭐{stars} 👥{followers} 📦{repo_count}")
 
 
 if __name__ == "__main__":
