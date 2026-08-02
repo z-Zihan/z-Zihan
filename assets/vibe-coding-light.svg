@@ -56,7 +56,7 @@
   <text x="728" y="82" font-family="system-ui,-apple-system,sans-serif"
         font-size="11" fill="#656d76" text-anchor="middle">🕐 Last Active</text>
   <text x="728" y="110" font-family="system-ui,-apple-system,sans-serif"
-        font-size="16" font-weight="700" fill="#24292f" text-anchor="middle">yesterday</text>
+        font-size="20" font-weight="700" fill="#24292f" text-anchor="middle">2d ago</text>
 
   <rect x="30" y="153" width="780" height="1" rx="0.5" fill="url(#accent)" opacity="0.3"/>
   <text x="812" y="149" font-family="system-ui,-apple-system,sans-serif" font-size="9"
