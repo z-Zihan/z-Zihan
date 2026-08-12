@@ -15,10 +15,10 @@ os.makedirs(ASSETS, exist_ok=True)
 LOCALES = {
     "en": {
         "lang": "en",
-        "title": "Zihan — frontend engineer and AI product builder",
+        "title": "Zihan — AI Agent engineer and product builder",
         "description": "Building local-first AI products and the interfaces that make them useful.",
-        "badge": "FRONTEND ENGINEER · AI BUILDER",
-        "badge_width": 300,
+        "badge": "AI AGENT ENGINEER · PRODUCT BUILDER",
+        "badge_width": 332,
         "name": "ZIHAN",
         "name_size": 76,
         "name_tracking": -4,
@@ -32,9 +32,9 @@ LOCALES = {
     },
     "zh": {
         "lang": "zh-CN",
-        "title": "子涵 — 前端工程师与 AI 产品构建者",
+        "title": "子涵 — AI Agent 工程师与产品构建者",
         "description": "构建本地优先的 AI 产品，让复杂技术变得清晰、可控、真正有用。",
-        "badge": "前端工程师 · AI 产品构建者",
+        "badge": "AI AGENT 工程师 · 产品构建者",
         "badge_width": 284,
         "name": "子涵",
         "name_size": 72,

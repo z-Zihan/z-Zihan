@@ -7,12 +7,12 @@
   <source media="(max-width: 600px)" srcset="./assets/profile-header-zh-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-zh-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-zh-light.svg">
-  <img alt="子涵 — 前端工程师与 AI 产品构建者" src="./assets/profile-header-zh-light.svg" width="100%">
+  <img alt="子涵 — AI Agent 工程师与产品构建者" src="./assets/profile-header-zh-light.svg" width="100%">
 </picture>
 
 ## 你好，我是子涵。
 
-我是一名在北京的前端工程师，专注于 **AI Agent、本地优先软件与产品界面设计** 的交叉领域。我希望把有野心的复杂系统，做得清晰、可控，并且真正有用。
+我是一名在北京的 AI Agent 工程师，专注于 **Agent 系统、本地优先软件与产品界面设计** 的交叉领域。我希望把有野心的复杂系统，做得清晰、可控，并且真正有用。
 
 最近，我在构建让人们自由使用自己的模型、也让不同 AI Agent 能够彼此协作的工具。
 

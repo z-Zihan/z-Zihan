@@ -7,12 +7,12 @@
   <source media="(max-width: 600px)" srcset="./assets/profile-header-en-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-en-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-en-light.svg">
-  <img alt="Zihan — frontend engineer and AI product builder" src="./assets/profile-header-en-light.svg" width="100%">
+  <img alt="Zihan — AI Agent engineer and product builder" src="./assets/profile-header-en-light.svg" width="100%">
 </picture>
 
 ## Hello — I'm Zihan.
 
-I'm a frontend engineer in Beijing, working at the intersection of **AI agents, local-first software, and product interface design**. I care about making ambitious systems feel clear, controllable, and genuinely useful.
+I'm an AI Agent engineer in Beijing, working at the intersection of **agent systems, local-first software, and product interface design**. I care about making ambitious systems feel clear, controllable, and genuinely useful.
 
 Right now, I am building tools that help people work with their own models and help AI agents work with one another.
 
