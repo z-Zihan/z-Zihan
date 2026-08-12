@@ -35,7 +35,7 @@
     <rect width="300" height="98" rx="14" fill="#ffffff" stroke="#d7e0ec"/>
     <rect x="16" y="17" width="5" height="64" rx="2.5" fill="url(#signal)"/>
     <text x="40" y="40" font-size="13" font-weight="700" letter-spacing="1.1" fill="#526178">LAST SIGNAL</text>
-    <text x="40" y="75" font-size="31" font-weight="760" fill="#111827">today</text>
+    <text x="40" y="75" font-size="31" font-weight="760" fill="#111827">recently</text>
   </g>
   </g>
 </svg>
