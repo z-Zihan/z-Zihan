@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" lang="en" width="680" height="420" viewBox="0 0 680 420" role="img" aria-labelledby="title desc">
+  <title id="title">Zihan — frontend engineer and AI product builder</title>
+  <desc id="desc">Building local-first AI products and the interfaces that make them useful.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/>
+      <stop offset="1" stop-color="#edf3fb"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#dce5f0" stroke-width="1" opacity=".48"/>
+    </pattern>
+    <style>
+    .hero-copy { animation: rise-in 280ms cubic-bezier(.23,1,.32,1) both; }
+    .hero-terminal { animation: terminal-in 280ms cubic-bezier(.23,1,.32,1) 60ms both; }
+    .focus-row { animation: row-in 220ms cubic-bezier(.23,1,.32,1) both; }
+    .focus-1 { animation-delay: 110ms; }
+    .focus-2 { animation-delay: 160ms; }
+    .focus-3 { animation-delay: 210ms; }
+    .chip { animation: row-in 220ms cubic-bezier(.23,1,.32,1) both; }
+    .chip-1 { animation-delay: 90ms; }
+    .chip-2 { animation-delay: 140ms; }
+    .chip-3 { animation-delay: 190ms; }
+    .live-dot { transform-box: fill-box; transform-origin: center; animation: breathe 2.4s cubic-bezier(.77,0,.175,1) infinite; }
+    .cursor { animation: blink 1.2s steps(1,end) infinite; }
+    @keyframes rise-in { from { opacity: .82; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes terminal-in { from { opacity: .82; transform: translateX(8px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes row-in { from { opacity: .78; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes breathe { 0%,100% { opacity: .55; transform: scale(.92); } 50% { opacity: 1; transform: scale(1); } }
+    @keyframes blink { 0%,48% { opacity: 1; } 49%,100% { opacity: 0; } }
+    @keyframes fade-in { from { opacity: .88; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-copy,.hero-terminal,.focus-row,.chip { animation: fade-in 160ms cubic-bezier(.23,1,.32,1) both; }
+      .live-dot,.cursor { animation: none; }
+    }
+</style>
+  </defs>
+  <rect x="1" y="1" width="678" height="418" rx="22" fill="url(#wash)" stroke="#d7e0ec" stroke-width="2"/>
+  <rect x="1" y="1" width="678" height="418" rx="22" fill="url(#grid)"/>
+  <g class="hero-copy">
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace">
+    <rect x="42" y="38" width="338" height="34" rx="17" fill="#ffffff" stroke="#d7e0ec"/>
+    <circle cx="61" cy="55" r="5" fill="#16a34a"/>
+    <text x="76" y="61" font-size="14" font-weight="700" letter-spacing="1.2" fill="#526178">FRONTEND ENGINEER · AI BUILDER</text>
+  </g>
+  <text x="40" y="174" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="86" font-weight="800" letter-spacing="-4" fill="#111827">ZIHAN</text>
+  <rect x="42" y="194" width="96" height="6" rx="3" fill="url(#signal)"/>
+  <text x="42" y="244" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="25" font-weight="650" fill="#111827">Building local-first AI products</text>
+  <text x="42" y="280" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="25" fill="#526178">and the interfaces that make them useful.</text>
+  </g>
+  <g transform="translate(42 326)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace" font-size="14" font-weight="700">
+    <g class="chip chip-1"><rect width="176" height="46" rx="12" fill="#ffffff" stroke="#d7e0ec"/>
+    <circle cx="19" cy="23" r="5" fill="#2563eb"/>
+    <text x="32" y="28" fill="#111827">LOCAL-FIRST</text></g>
+    <g transform="translate(188)"><g class="chip chip-2"><rect width="178" height="46" rx="12" fill="#ffffff" stroke="#d7e0ec"/>
+    <circle cx="19" cy="23" r="5" fill="#0e7490"/>
+    <text x="32" y="28" fill="#111827">AGENT SYSTEMS</text></g></g>
+    <g transform="translate(378)"><g class="chip chip-3"><rect width="210" height="46" rx="12" fill="#ffffff" stroke="#d7e0ec"/>
+    <circle class="live-dot" cx="19" cy="23" r="5" fill="#16a34a"/>
+    <text x="32" y="28" fill="#111827">BUILDING IN PUBLIC</text></g></g>
+  </g>
+</svg>

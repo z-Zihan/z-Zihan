@@ -3,11 +3,11 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-header-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/profile-header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
-  <img alt="子涵 — 前端工程师与 AI 产品构建者" src="./assets/profile-header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-header-zh-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="./assets/profile-header-zh-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-zh-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-zh-light.svg">
+  <img alt="子涵 — 前端工程师与 AI 产品构建者" src="./assets/profile-header-zh-light.svg" width="100%">
 </picture>
 
 ## 你好，我是子涵。

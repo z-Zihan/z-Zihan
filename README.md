@@ -3,11 +3,11 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-header-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/profile-header-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
-  <img alt="Zihan — frontend engineer and AI product builder" src="./assets/profile-header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-header-en-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="./assets/profile-header-en-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-en-light.svg">
+  <img alt="Zihan — frontend engineer and AI product builder" src="./assets/profile-header-en-light.svg" width="100%">
 </picture>
 
 ## Hello — I'm Zihan.
