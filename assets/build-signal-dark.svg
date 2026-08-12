@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="168" viewBox="0 0 920 168" role="img" aria-labelledby="title desc">
+  <title id="title">Live GitHub build signal</title>
+  <desc id="desc">Public repository, star, account age, and recent activity statistics.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#16213a"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="918" height="166" rx="16" fill="url(#panel)" stroke="#263553" stroke-width="2"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <circle cx="31" cy="29" r="5" fill="#4ade80"/>
+    <text x="44" y="34" font-size="12" font-weight="700" letter-spacing="1.2" fill="#f4f7ff">BUILD SIGNAL</text>
+    <text x="889" y="34" text-anchor="end" font-size="10" fill="#9aa8c2">UPDATED 2026-08-12 UTC</text>
+    <g transform="translate(30 54)">
+    <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
+    <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
+    <text x="32" y="31" font-size="10" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">PUBLIC BUILDS</text>
+    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">5</text>
+  </g><g transform="translate(248 54)">
+    <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
+    <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
+    <text x="32" y="31" font-size="10" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">STARS EARNED</text>
+    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">10</text>
+  </g><g transform="translate(466 54)">
+    <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
+    <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
+    <text x="32" y="31" font-size="10" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">ON GITHUB SINCE</text>
+    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">2019</text>
+  </g><g transform="translate(684 54)">
+    <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
+    <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
+    <text x="32" y="31" font-size="10" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">LAST SIGNAL</text>
+    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">today</text>
+  </g>
+  </g>
+</svg>
