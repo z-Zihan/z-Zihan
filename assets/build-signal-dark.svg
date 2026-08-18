@@ -20,7 +20,7 @@
     <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
     <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
     <text x="32" y="31" font-size="10" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">PUBLIC BUILDS</text>
-    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">6</text>
+    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">5</text>
   </g><g transform="translate(248 54)">
     <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
     <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
@@ -35,7 +35,7 @@
     <rect width="198" height="78" rx="12" fill="#111a2e" stroke="#263553"/>
     <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
     <text x="32" y="31" font-size="10" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">LAST SIGNAL</text>
-    <text x="32" y="61" font-size="28" font-weight="760" fill="#f4f7ff">today</text>
+    <text x="32" y="61" font-size="22" font-weight="760" fill="#f4f7ff">recently</text>
   </g>
   </g>
 </svg>
