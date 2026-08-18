@@ -20,7 +20,7 @@
     <rect width="300" height="98" rx="14" fill="#111a2e" stroke="#263553"/>
     <rect x="16" y="17" width="5" height="64" rx="2.5" fill="url(#signal)"/>
     <text x="40" y="40" font-size="13" font-weight="700" letter-spacing="1.1" fill="#9aa8c2">PUBLIC BUILDS</text>
-    <text x="40" y="75" font-size="31" font-weight="760" fill="#f4f7ff">5</text>
+    <text x="40" y="75" font-size="31" font-weight="760" fill="#f4f7ff">6</text>
   </g><g transform="translate(348 62)">
     <rect width="300" height="98" rx="14" fill="#111a2e" stroke="#263553"/>
     <rect x="16" y="17" width="5" height="64" rx="2.5" fill="url(#signal)"/>
