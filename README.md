@@ -28,7 +28,7 @@ Right now, I am building tools that help people work with their own models and h
 
 ## Selected work
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg" width="45%" alt="Chorus"></a>
   <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg" width="45%" alt="Evir"></a>
   <br>

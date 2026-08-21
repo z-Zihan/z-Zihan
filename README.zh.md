@@ -28,7 +28,7 @@
 
 ## 代表作品
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg" width="45%" alt="Chorus"></a>
   <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg" width="45%" alt="Evir"></a>
   <br>
