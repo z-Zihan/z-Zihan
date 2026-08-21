@@ -2,7 +2,7 @@
   <title id="title">LLM-101</title>
   <desc id="desc">从 0 开始建立从 AI、LLM 到 RAG、Agent、MCP、Coding Agent 的知识地图。</desc>
   <defs>
-    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
       <stop class="bg-b" offset="1"/>
     </linearGradient>
@@ -14,9 +14,6 @@
       <stop class="ic-a" offset="0"/>
       <stop class="ic-b" offset="1"/>
     </linearGradient>
-    <filter id="cardShadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
-    </filter>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
@@ -57,7 +54,7 @@
       }
     </style>
   </defs>
-  <rect class="card" x="1" y="1" width="592" height="178" rx="20" filter="url(#cardShadow)"/>
+  <rect class="card" x="1" y="1" width="592" height="178" rx="20"/>
   <circle class="blob" cx="520" cy="132" r="58" filter="url(#blobBlur)"/>
   <path class="edge-hi" d="M19 2.2H575" stroke-width="1"/>
   <rect class="tile" x="30" y="68" width="44" height="44" rx="12"/>
@@ -67,8 +64,8 @@
   <text class="desc" x="106" y="88">从 0 开始建立从 AI、LLM 到 RAG、</text>
   <text class="desc" x="106" y="108">Agent、MCP、Coding Agent 的知识地图。</text>
   <line class="divider" x1="106" y1="122" x2="574" y2="122"/>
-  <rect class="chip-bg" x="106.0" y="138" width="64.0" height="22" rx="11"/>
-<text class="chip-text" x="116.0" y="153">Python</text>
-  <rect class="chip-bg" x="178.0" y="138" width="59.0" height="22" rx="11"/>
-<text class="chip-text" x="188.0" y="153">知识库</text>
+  <rect class="chip-bg" x="285.0" y="138" width="54.0" height="22" rx="11"/>
+<text class="chip-text" x="295.0" y="153">Python</text>
+  <rect class="chip-bg" x="345.0" y="138" width="50.0" height="22" rx="11"/>
+<text class="chip-text" x="355.0" y="153">知识库</text>
 </svg>
