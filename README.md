@@ -31,10 +31,11 @@ Right now, I am building tools that help people work with their own models and h
 <p align="center">
   <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg" width="290" alt="Chorus"></a>
   <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg" width="290" alt="Evir"></a>
-  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg" width="290" alt="build-meta-injector"></a>
   <br>
+  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg" width="290" alt="build-meta-injector"></a>
   <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg" width="290" alt="awesome-skills"></a>
-  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg" width="290" alt="LLM-101"></a>
+  <br>
+  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg" width="594" alt="LLM-101"></a>
 </p>
 
 ## What I'm exploring

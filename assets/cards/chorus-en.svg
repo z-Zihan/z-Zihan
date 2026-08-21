@@ -23,37 +23,37 @@
     <style>
       .bg-a { stop-color: #f7f9fc; }
       .bg-b { stop-color: #edf3fb; }
-      .tile-a { stop-color: #eaf1fd; }
-      .tile-b { stop-color: #dbe7fb; }
-      .ic-a { stop-color: #2563eb; }
-      .ic-b { stop-color: #0ea5b7; }
+      .tile-a { stop-color: #efe7fd; }
+      .tile-b { stop-color: #ddccfa; }
+      .ic-a { stop-color: #7c3aed; }
+      .ic-b { stop-color: #a78bfa; }
       .card { fill: url(#cardGrad); stroke: #d7e0ec; }
       .edge-hi { stroke: #ffffff; stroke-opacity: 0.55; }
       .blob { fill: url(#iconGrad); opacity: 0.07; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #7d8799; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+      .ext-link { fill: none; stroke: #8b5cf6; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.5; }
       .name { fill: #0f172a; font: 700 16px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .desc { fill: #57606a; font: 400 12px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .divider { stroke: #e2e8f0; }
-      .chip-bg { fill: #eef4fd; }
-      .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .chip-bg { fill: #f0e9fe; }
+      .chip-text { fill: #7c3aed; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
-        .tile-a { stop-color: #1d2433; }
-        .tile-b { stop-color: #212a3d; }
-        .ic-a { stop-color: #60a5fa; }
-        .ic-b { stop-color: #22d3ee; }
+        .tile-a { stop-color: #241f38; }
+        .tile-b { stop-color: #2f2748; }
+        .ic-a { stop-color: #a78bfa; }
+        .ic-b { stop-color: #d8b4fe; }
         .card { stroke: #30363d; }
         .edge-hi { stroke-opacity: 0.05; }
         .blob { opacity: 0.10; }
-        .ext-link { stroke: #8b949e; }
+        .ext-link { stroke: #c4b5fd; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
         .divider { stroke: #242c38; }
-        .chip-bg { fill: #1d2433; }
-        .chip-text { fill: #79b8ff; }
+        .chip-bg { fill: #241f38; }
+        .chip-text { fill: #c4b5fd; }
       }
     </style>
   </defs>
