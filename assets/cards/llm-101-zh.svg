@@ -56,19 +56,19 @@
       }
     </style>
   </defs>
-  <rect class="card" x="1" y="1" width="298" height="178" rx="18"/>
+  <rect class="card" x="1" y="1" width="298" height="148" rx="18"/>
   <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
   <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
-  <rect class="tile" x="14" y="16" width="44" height="44" rx="12"/>
+  <rect class="tile" x="14" y="10" width="44" height="44" rx="12"/>
   <g class="icon" transform="translate(24.0,26.0)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
-  <circle class="ext-link-bg" cx="267.6" cy="25.6" r="14"/>
-  <g class="ext-link" transform="translate(250.8,8.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
-  <text class="name" x="68" y="43">LLM-101</text>
-  <text class="desc" x="14" y="80">从 0 开始建立从 AI、LLM 到 RAG、Agent、</text>
-  <text class="desc" x="14" y="100">MCP、Coding Agent 的知识地图。</text>
-  <line class="divider" x1="14" y1="122" x2="286" y2="122"/>
+  <circle class="ext-link-bg" cx="267.6" cy="19.6" r="14"/>
+  <g class="ext-link" transform="translate(250.8,2.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
+  <text class="name" x="68" y="37">LLM-101</text>
+  <text class="desc" x="14" y="66">从 0 开始建立从 AI、LLM 到 RAG、Agent、</text>
+  <text class="desc" x="14" y="82">MCP、Coding Agent 的知识地图。</text>
+  <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
   <rect class="chip-bg" x="94.0" y="132" width="54.0" height="19" rx="9.5"/>
-<text class="chip-text" x="104.0" y="159">Python</text>
+<text class="chip-text" x="104.0" y="127">Python</text>
   <rect class="chip-bg" x="156.0" y="132" width="50.0" height="19" rx="9.5"/>
-<text class="chip-text" x="166.0" y="159">知识库</text>
+<text class="chip-text" x="166.0" y="127">知识库</text>
 </svg>
