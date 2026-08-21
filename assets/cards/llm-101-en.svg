@@ -59,14 +59,14 @@
   <rect class="card" x="1" y="1" width="298" height="178" rx="18"/>
   <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
   <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
-  <rect class="tile" x="14" y="16" width="42" height="42" rx="12"/>
-  <g class="icon" transform="translate(22,37)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
-  <circle class="ext-link-bg" cx="267.6" cy="21.6" r="14"/>
-  <g class="ext-link" transform="translate(253.8,5.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
+  <rect class="tile" x="14" y="16" width="44" height="44" rx="12"/>
+  <g class="icon" transform="translate(16,33)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
+  <circle class="ext-link-bg" cx="267.6" cy="25.6" r="14"/>
+  <g class="ext-link" transform="translate(250.8,8.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
   <text class="name" x="68" y="43">LLM-101</text>
   <text class="desc" x="14" y="80">Knowledge map from AI &amp; LLM to RAG,</text>
   <text class="desc" x="14" y="100">Agents, MCP &amp; Coding Agents.</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="122"/>
+  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
   <rect class="chip-bg" x="69.5" y="132" width="54.0" height="19" rx="9.5"/>
 <text class="chip-text" x="79.5" y="145">Python</text>
   <rect class="chip-bg" x="131.5" y="132" width="99.0" height="19" rx="9.5"/>

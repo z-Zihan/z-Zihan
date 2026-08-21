@@ -59,14 +59,14 @@
   <rect class="card" x="1" y="1" width="298" height="178" rx="18"/>
   <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
   <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
-  <rect class="tile" x="14" y="16" width="42" height="42" rx="12"/>
-  <g class="icon" transform="translate(22,37)"><path d="M12 3.2l7.6 4.3v8.6L12 20.4l-7.6-4.3V7.5z"/><path d="M12 11.8V3.2M12 11.8l7.6-4.3M12 11.8l-7.6-4.3"/></g>
-  <circle class="ext-link-bg" cx="267.6" cy="21.6" r="14"/>
-  <g class="ext-link" transform="translate(253.8,5.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
+  <rect class="tile" x="14" y="16" width="44" height="44" rx="12"/>
+  <g class="icon" transform="translate(16,33)"><path d="M12 3.2l7.6 4.3v8.6L12 20.4l-7.6-4.3V7.5z"/><path d="M12 11.8V3.2M12 11.8l7.6-4.3M12 11.8l-7.6-4.3"/></g>
+  <circle class="ext-link-bg" cx="267.6" cy="25.6" r="14"/>
+  <g class="ext-link" transform="translate(250.8,8.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
   <text class="name" x="68" y="43">build-meta-injector</text>
   <text class="desc" x="14" y="80">Build-metadata plugin for Vite, Webpack,</text>
   <text class="desc" x="14" y="100">Rollup, Rspack &amp; esbuild.</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="122"/>
+  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
   <rect class="chip-bg" x="89.5" y="132" width="68.0" height="19" rx="9.5"/>
 <text class="chip-text" x="99.5" y="145">JavaScript</text>
   <rect class="chip-bg" x="163.5" y="132" width="47.0" height="19" rx="9.5"/>
