@@ -29,13 +29,13 @@
 ## 代表作品
 
 <p align="left">
-  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg" width="45%" alt="Chorus"></a>
-  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg" width="45%" alt="Evir"></a>
+  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg?v=2" width="45%" alt="Chorus"></a>
+  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg?v=2" width="45%" alt="Evir"></a>
   <br>
-  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg" width="45%" alt="build-meta-injector"></a>
-  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg" width="45%" alt="awesome-skills"></a>
+  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg?v=2" width="45%" alt="build-meta-injector"></a>
+  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg?v=2" width="45%" alt="awesome-skills"></a>
   <br>
-  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg" width="45%" alt="LLM-101"></a>
+  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg?v=2" width="45%" alt="LLM-101"></a>
 </p>
 
 ## 我正在探索
