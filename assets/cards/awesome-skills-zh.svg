@@ -60,7 +60,7 @@
   <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
   <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
   <rect class="tile" x="14" y="10" width="44" height="44" rx="12"/>
-  <g class="icon" transform="translate(27.3,26.0)"><path d="M13.2 2.6L5.6 13.4h5.2l-1 8 8.4-11.2h-5.6z"/></g>
+  <g class="icon" transform="translate(27.3,20.0)"><path d="M13.2 2.6L5.6 13.4h5.2l-1 8 8.4-11.2h-5.6z"/></g>
   <circle class="ext-link-bg" cx="267.6" cy="19.6" r="14"/>
   <g class="ext-link" transform="translate(250.8,2.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
   <text class="name" x="68" y="37">awesome-skills</text>
