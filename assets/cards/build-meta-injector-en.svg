@@ -66,9 +66,9 @@
   <text class="name" x="68" y="43">build-meta-injector</text>
   <text class="desc" x="14" y="80">Build-metadata plugin for Vite, Webpack,</text>
   <text class="desc" x="14" y="100">Rollup, Rspack &amp; esbuild.</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
+  <line class="divider" x1="14" y1="122" x2="286" y2="122"/>
   <rect class="chip-bg" x="89.5" y="132" width="68.0" height="19" rx="9.5"/>
-<text class="chip-text" x="99.5" y="145">JavaScript</text>
+<text class="chip-text" x="99.5" y="159">JavaScript</text>
   <rect class="chip-bg" x="163.5" y="132" width="47.0" height="19" rx="9.5"/>
-<text class="chip-text" x="173.5" y="145">CI/CD</text>
+<text class="chip-text" x="173.5" y="159">CI/CD</text>
 </svg>

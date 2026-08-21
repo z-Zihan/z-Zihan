@@ -66,11 +66,11 @@
   <text class="name" x="68" y="43">Chorus</text>
   <text class="desc" x="14" y="80">让 AI Agent 跨 CLI、设备与团队</text>
   <text class="desc" x="14" y="100">沟通协作的本地优先工作台。</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
+  <line class="divider" x1="14" y1="122" x2="286" y2="122"/>
   <rect class="chip-bg" x="65.0" y="132" width="72.0" height="19" rx="9.5"/>
-<text class="chip-text" x="75.0" y="145">TypeScript</text>
+<text class="chip-text" x="75.0" y="159">TypeScript</text>
   <rect class="chip-bg" x="143.0" y="132" width="44.0" height="19" rx="9.5"/>
-<text class="chip-text" x="153.0" y="145">Tauri</text>
+<text class="chip-text" x="153.0" y="159">Tauri</text>
   <rect class="chip-bg" x="193.0" y="132" width="42.0" height="19" rx="9.5"/>
-<text class="chip-text" x="203.0" y="145">Rust</text>
+<text class="chip-text" x="203.0" y="159">Rust</text>
 </svg>

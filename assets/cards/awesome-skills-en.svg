@@ -66,9 +66,9 @@
   <text class="name" x="68" y="43">awesome-skills</text>
   <text class="desc" x="14" y="80">Reusable skills for coding agents &amp;</text>
   <text class="desc" x="14" y="100">everyday engineering workflows.</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
+  <line class="divider" x1="14" y1="122" x2="286" y2="122"/>
   <rect class="chip-bg" x="78.0" y="132" width="54.0" height="19" rx="9.5"/>
-<text class="chip-text" x="88.0" y="145">Python</text>
+<text class="chip-text" x="88.0" y="159">Python</text>
   <rect class="chip-bg" x="138.0" y="132" width="84.0" height="19" rx="9.5"/>
-<text class="chip-text" x="148.0" y="145">Agent tooling</text>
+<text class="chip-text" x="148.0" y="159">Agent tooling</text>
 </svg>

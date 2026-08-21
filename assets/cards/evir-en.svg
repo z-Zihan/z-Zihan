@@ -66,11 +66,11 @@
   <text class="name" x="68" y="43">Evir</text>
   <text class="desc" x="14" y="80">Local-first desktop agent powered by</text>
   <text class="desc" x="14" y="100">your own models — files, terminal, tools.</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
+  <line class="divider" x1="14" y1="122" x2="286" y2="122"/>
   <rect class="chip-bg" x="62.5" y="132" width="72.0" height="19" rx="9.5"/>
-<text class="chip-text" x="72.5" y="145">TypeScript</text>
+<text class="chip-text" x="72.5" y="159">TypeScript</text>
   <rect class="chip-bg" x="140.5" y="132" width="47.0" height="19" rx="9.5"/>
-<text class="chip-text" x="150.5" y="145">React</text>
+<text class="chip-text" x="150.5" y="159">React</text>
   <rect class="chip-bg" x="193.5" y="132" width="44.0" height="19" rx="9.5"/>
-<text class="chip-text" x="203.5" y="145">Tauri</text>
+<text class="chip-text" x="203.5" y="159">Tauri</text>
 </svg>

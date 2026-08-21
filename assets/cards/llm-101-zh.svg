@@ -66,9 +66,9 @@
   <text class="name" x="68" y="43">LLM-101</text>
   <text class="desc" x="14" y="80">从 0 开始建立从 AI、LLM 到 RAG、Agent、</text>
   <text class="desc" x="14" y="100">MCP、Coding Agent 的知识地图。</text>
-  <line class="divider" x1="14" y1="114" x2="286" y2="114"/>
+  <line class="divider" x1="14" y1="122" x2="286" y2="122"/>
   <rect class="chip-bg" x="94.0" y="132" width="54.0" height="19" rx="9.5"/>
-<text class="chip-text" x="104.0" y="145">Python</text>
+<text class="chip-text" x="104.0" y="159">Python</text>
   <rect class="chip-bg" x="156.0" y="132" width="50.0" height="19" rx="9.5"/>
-<text class="chip-text" x="166.0" y="145">知识库</text>
+<text class="chip-text" x="166.0" y="159">知识库</text>
 </svg>
