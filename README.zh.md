@@ -28,12 +28,39 @@
 
 ## 代表作品
 
-| 项目 | 它解决什么问题 | 技术栈 |
-| :-- | :-- | :-- |
-| **[Chorus](https://github.com/z-Zihan/Chorus)** | 让 AI Agent 跨 CLI、设备与团队沟通协作的本地优先工作台。 | TypeScript · Tauri · Rust |
-| **[Evir](https://github.com/z-Zihan/Evir)** | 由用户自己的模型驱动、可操作文件与终端、强调明确控制权的本地优先桌面 Agent。 | TypeScript · React · Tauri |
-| **[build-meta-injector](https://github.com/z-Zihan/build-meta-injector)** | 为 Vite、Webpack、Rollup、Rspack 与 esbuild 统一注入构建元数据。 | JavaScript · CI/CD |
-| **[awesome-skills](https://github.com/z-Zihan/awesome-skills)** | 面向编程 Agent 和日常工程工作流的实用、可复用 Skills 合集。 | Python · Agent 工具链 |
+<div style="display:flex;flex-wrap:wrap;gap:14px;margin:18px 0">
+
+<div style="flex:1 1 300px;min-width:260px;border:1px solid #d0d7de;border-radius:14px;padding:18px 20px">
+<div style="font-weight:700;font-size:16px">🤝 <a href="https://github.com/z-Zihan/Chorus">Chorus</a></div>
+<div style="margin-top:6px;font-size:14px;opacity:0.85;line-height:1.5">让 AI Agent 跨 CLI、设备与团队沟通协作的本地优先工作台。</div>
+<div style="margin-top:12px;font-size:12.5px;opacity:0.6">TypeScript · Tauri · Rust</div>
+</div>
+
+<div style="flex:1 1 300px;min-width:260px;border:1px solid #d0d7de;border-radius:14px;padding:18px 20px">
+<div style="font-weight:700;font-size:16px">🤖 <a href="https://github.com/z-Zihan/Evir">Evir</a></div>
+<div style="margin-top:6px;font-size:14px;opacity:0.85;line-height:1.5">由用户自己的模型驱动、可操作文件与终端、强调明确控制权的本地优先桌面 Agent。</div>
+<div style="margin-top:12px;font-size:12.5px;opacity:0.6">TypeScript · React · Tauri</div>
+</div>
+
+<div style="flex:1 1 300px;min-width:260px;border:1px solid #d0d7de;border-radius:14px;padding:18px 20px">
+<div style="font-weight:700;font-size:16px">🔧 <a href="https://github.com/z-Zihan/build-meta-injector">build-meta-injector</a></div>
+<div style="margin-top:6px;font-size:14px;opacity:0.85;line-height:1.5">为 Vite、Webpack、Rollup、Rspack 与 esbuild 统一注入构建元数据。</div>
+<div style="margin-top:12px;font-size:12.5px;opacity:0.6">JavaScript · CI/CD</div>
+</div>
+
+<div style="flex:1 1 300px;min-width:260px;border:1px solid #d0d7de;border-radius:14px;padding:18px 20px">
+<div style="font-weight:700;font-size:16px">⚡ <a href="https://github.com/z-Zihan/awesome-skills">awesome-skills</a></div>
+<div style="margin-top:6px;font-size:14px;opacity:0.85;line-height:1.5">面向编程 Agent 和日常工程工作流的实用、可复用 Skills 合集。</div>
+<div style="margin-top:12px;font-size:12.5px;opacity:0.6">Python · Agent 工具链</div>
+</div>
+
+<div style="flex:1 1 300px;min-width:260px;border:1px solid #d0d7de;border-radius:14px;padding:18px 20px">
+<div style="font-weight:700;font-size:16px">📚 <a href="https://github.com/z-Zihan/LLM-101">LLM-101</a></div>
+<div style="margin-top:6px;font-size:14px;opacity:0.85;line-height:1.5">从 0 开始，按真实小白的认知路径，建立从 AI、LLM 到 RAG、Agent、MCP、Coding Agent 的完整知识地图。</div>
+<div style="margin-top:12px;font-size:12.5px;opacity:0.6">Python · 知识库</div>
+</div>
+
+</div>
 
 ## 我正在探索
 
