@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
   <title id="title">awesome-skills</title>
   <desc id="desc">Reusable skills for coding agents &amp; everyday engineering workflows.</desc>
   <defs>
@@ -67,8 +67,8 @@
   <text class="desc" x="14" y="66">Reusable skills for coding agents &amp;</text>
   <text class="desc" x="14" y="82">everyday engineering workflows.</text>
   <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
-  <rect class="chip-bg" x="78.0" y="132" width="54.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="78.0" y="112" width="54.0" height="20" rx="10"/>
 <text class="chip-text" x="88.0" y="127">Python</text>
-  <rect class="chip-bg" x="138.0" y="132" width="84.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="138.0" y="112" width="84.0" height="20" rx="10"/>
 <text class="chip-text" x="148.0" y="127">Agent tooling</text>
 </svg>

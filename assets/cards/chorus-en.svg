@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
   <title id="title">Chorus</title>
   <desc id="desc">Local-first workspace for AI agents to communicate &amp; collaborate across teams.</desc>
   <defs>
@@ -67,10 +67,10 @@
   <text class="desc" x="14" y="66">Local-first workspace for AI agents to</text>
   <text class="desc" x="14" y="82">communicate &amp; collaborate across teams.</text>
   <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
-  <rect class="chip-bg" x="65.0" y="132" width="72.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="65.0" y="112" width="72.0" height="20" rx="10"/>
 <text class="chip-text" x="75.0" y="127">TypeScript</text>
-  <rect class="chip-bg" x="143.0" y="132" width="44.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="143.0" y="112" width="44.0" height="20" rx="10"/>
 <text class="chip-text" x="153.0" y="127">Tauri</text>
-  <rect class="chip-bg" x="193.0" y="132" width="42.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="193.0" y="112" width="42.0" height="20" rx="10"/>
 <text class="chip-text" x="203.0" y="127">Rust</text>
 </svg>

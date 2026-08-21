@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
   <title id="title">build-meta-injector</title>
   <desc id="desc">Build-metadata plugin for Vite, Webpack, Rollup, Rspack &amp; esbuild.</desc>
   <defs>
@@ -67,8 +67,8 @@
   <text class="desc" x="14" y="66">Build-metadata plugin for Vite, Webpack,</text>
   <text class="desc" x="14" y="82">Rollup, Rspack &amp; esbuild.</text>
   <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
-  <rect class="chip-bg" x="89.5" y="132" width="68.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="89.5" y="112" width="68.0" height="20" rx="10"/>
 <text class="chip-text" x="99.5" y="127">JavaScript</text>
-  <rect class="chip-bg" x="163.5" y="132" width="47.0" height="19" rx="9.5"/>
+  <rect class="chip-bg" x="163.5" y="112" width="47.0" height="20" rx="10"/>
 <text class="chip-text" x="173.5" y="127">CI/CD</text>
 </svg>
