@@ -28,10 +28,13 @@ Right now, I am building tools that help people work with their own models and h
 
 ## Selected work
 
-<div style="display:flex;flex-wrap:wrap;gap:14px;margin:18px 0">
-
-<div style="flex:1 1 300px;min-width:260px;border:1px solid #d0d7de;border-radius:14px;padding:18px 20px">
-<div style="font-weight:700;font-size:16px">🤝 <a href="https://github.com/z-Zihan/Chorus">Chorus</a></div>
+<p align="center">
+  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg" width="298" alt="Chorus"></a>
+  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg" width="298" alt="Evir"></a>
+  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg" width="298" alt="build-meta-injector"></a>
+  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg" width="298" alt="awesome-skills"></a>
+  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg" width="298" alt="LLM-101"></a>
+</p>
 <div style="margin-top:6px;font-size:14px;opacity:0.85;line-height:1.5">A local-first workspace where AI agents communicate and collaborate across CLIs, devices, and teams.</div>
 <div style="margin-top:12px;font-size:12.5px;opacity:0.6">TypeScript · Tauri · Rust</div>
 </div>

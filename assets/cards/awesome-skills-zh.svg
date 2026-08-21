@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-labelledby="title desc">
+  <title id="title">awesome-skills</title>
+  <desc id="desc">面向编程 Agent 和日常工程 工作流的实用、可复用 Skills。</desc>
+  <defs>
+    <style>
+      .card { fill: #ffffff; stroke: #e5e7eb; }
+      .emoji { font-size: 22px; }
+      .name { fill: #24292f; font: 700 15px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .desc { fill: #57606a; font: 400 11.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .chip-bg { fill: #eef4fd; }
+      .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      @media (prefers-color-scheme: dark) {
+        .card { fill: #161b22; stroke: #30363d; }
+        .name { fill: #e6edf3; }
+        .desc { fill: #8b949e; }
+        .chip-bg { fill: #1d2433; }
+        .chip-text { fill: #79b8ff; }
+      }
+    </style>
+  </defs>
+  <rect class="card" x="1" y="1" width="298" height="198" rx="16"/>
+  <text class="emoji" x="20" y="46">⚡</text>
+  <text class="name" x="20" y="82">awesome-skills</text>
+  <text class="desc" x="20" y="106">面向编程 Agent 和日常工程</text>
+  <text class="desc" x="20" y="124">工作流的实用、可复用 Skills。</text>
+  <rect class="chip-bg" x="61.0" y="164" width="74.0" height="20" rx="10"/>
+  <text class="chip-text" x="70.0" y="178">Python</text>
+  <rect class="chip-bg" x="141.0" y="164" width="98.0" height="20" rx="10"/>
+  <text class="chip-text" x="150.0" y="178">Agent 工具链</text>
+</svg>
