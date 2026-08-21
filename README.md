@@ -29,13 +29,13 @@ Right now, I am building tools that help people work with their own models and h
 ## Selected work
 
 <p align="center">
-  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg" width="48%" alt="Chorus"></a>
-  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg" width="48%" alt="Evir"></a>
+  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg" width="45%" alt="Chorus"></a>
+  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg" width="45%" alt="Evir"></a>
   <br>
-  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg" width="48%" alt="build-meta-injector"></a>
-  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg" width="48%" alt="awesome-skills"></a>
+  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg" width="45%" alt="build-meta-injector"></a>
+  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg" width="45%" alt="awesome-skills"></a>
   <br>
-  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg" width="100%" alt="LLM-101"></a>
+  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg" width="45%" alt="LLM-101"></a>
 </p>
 
 ## What I'm exploring

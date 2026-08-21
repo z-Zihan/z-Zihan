@@ -29,11 +29,12 @@
       .blob { fill: url(#iconGrad); opacity: 0.07; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #2563eb; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.5; }
+      .ext-link { fill: none; stroke: #2563eb; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; }
+      .ext-link-bg { fill: url(#iconGrad); opacity: 0.16; }
       .name { fill: #0f172a; font: 700 16px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .desc { fill: #57606a; font: 400 12px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .divider { stroke: #e2e8f0; }
-      .chip-bg { fill: #eef4fd; }
+      .chip-bg { fill: #dbeafe; }
       .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
@@ -46,10 +47,11 @@
         .edge-hi { stroke-opacity: 0.05; }
         .blob { opacity: 0.10; }
         .ext-link { stroke: #93c5fd; }
+        .ext-link-bg { opacity: 0.26; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
         .divider { stroke: #242c38; }
-        .chip-bg { fill: #1d2433; }
+        .chip-bg { fill: #16233d; }
         .chip-text { fill: #93c5fd; }
       }
     </style>
@@ -59,7 +61,8 @@
   <path class="edge-hi" d="M19 2.2H575" stroke-width="1"/>
   <rect class="tile" x="30" y="68" width="44" height="44" rx="12"/>
   <g class="icon" transform="translate(40,78)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
-  <g class="ext-link" transform="translate(552,16) scale(0.8)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
+  <circle class="ext-link-bg" cx="561.6" cy="25.6" r="14"/>
+  <g class="ext-link" transform="translate(544.8,8.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
   <text class="name" x="106" y="47">LLM-101</text>
   <text class="desc" x="106" y="88">Knowledge map from AI &amp; LLM to RAG,</text>
   <text class="desc" x="106" y="108">Agents, MCP &amp; Coding Agents.</text>
