@@ -1,30 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" role="img" aria-labelledby="title desc">
   <title id="title">LLM-101</title>
   <desc id="desc">Knowledge map from AI &amp; LLM to RAG, Agents, MCP &amp; Coding Agents.</desc>
   <defs>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop class="bg-a" offset="0"/>
+      <stop class="bg-b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop class="tile-a" offset="0"/>
+      <stop class="tile-b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop class="ic-a" offset="0"/>
+      <stop class="ic-b" offset="1"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
     <style>
-      .card { fill: #ffffff; stroke: #e5e7eb; }
-      .emoji { font-size: 22px; }
-      .name { fill: #24292f; font: 700 15px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
-      .desc { fill: #57606a; font: 400 11.5px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .bg-a { stop-color: #f7f9fc; }
+      .bg-b { stop-color: #edf3fb; }
+      .tile-a { stop-color: #eaf1fd; }
+      .tile-b { stop-color: #dbe7fb; }
+      .ic-a { stop-color: #2563eb; }
+      .ic-b { stop-color: #0ea5b7; }
+      .card { fill: url(#cardGrad); stroke: #d7e0ec; }
+      .edge-hi { stroke: #ffffff; stroke-opacity: 0.55; }
+      .blob { fill: url(#iconGrad); opacity: 0.07; }
+      .tile { fill: url(#tileGrad); }
+      .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+      .ext-link { fill: none; stroke: #7d8799; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+      .name { fill: #0f172a; font: 700 16px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .desc { fill: #57606a; font: 400 12px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .divider { stroke: #e2e8f0; }
       .chip-bg { fill: #eef4fd; }
-      .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
-        .card { fill: #161b22; stroke: #30363d; }
+        .bg-a { stop-color: #161b22; }
+        .bg-b { stop-color: #1a2029; }
+        .tile-a { stop-color: #1d2433; }
+        .tile-b { stop-color: #212a3d; }
+        .ic-a { stop-color: #60a5fa; }
+        .ic-b { stop-color: #22d3ee; }
+        .card { stroke: #30363d; }
+        .edge-hi { stroke-opacity: 0.05; }
+        .blob { opacity: 0.10; }
+        .ext-link { stroke: #8b949e; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
+        .divider { stroke: #242c38; }
         .chip-bg { fill: #1d2433; }
         .chip-text { fill: #79b8ff; }
       }
     </style>
   </defs>
-  <rect class="card" x="1" y="1" width="298" height="198" rx="16"/>
-  <text class="emoji" x="20" y="46">📚</text>
-  <text class="name" x="20" y="82">LLM-101</text>
-  <text class="desc" x="20" y="106">Knowledge map from AI &amp; LLM to RAG,</text>
-  <text class="desc" x="20" y="124">Agents, MCP &amp; Coding Agents.</text>
-  <rect class="chip-bg" x="53.0" y="164" width="74.0" height="20" rx="10"/>
-  <text class="chip-text" x="62.0" y="178">Python</text>
-  <rect class="chip-bg" x="133.0" y="164" width="114.0" height="20" rx="10"/>
-  <text class="chip-text" x="142.0" y="178">Knowledge base</text>
+  <rect class="card" x="1" y="1" width="298" height="178" rx="18" filter="url(#cardShadow)"/>
+  <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
+  <path class="edge-hi" d="M19 2.2H281" stroke-width="1"/>
+  <rect class="tile" x="20" y="20" width="44" height="44" rx="12"/>
+  <g class="icon" transform="translate(30,30)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
+  <g class="ext-link" transform="translate(258,16) scale(0.8)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
+  <text class="name" x="76" y="47">LLM-101</text>
+  <text class="desc" x="20" y="88">Knowledge map from AI &amp; LLM to RAG,</text>
+  <text class="desc" x="20" y="108">Agents, MCP &amp; Coding Agents.</text>
+  <line class="divider" x1="20" y1="122" x2="280" y2="122"/>
+  <rect class="chip-bg" x="20.0" y="138" width="64.0" height="22" rx="11"/>
+<text class="chip-text" x="30.0" y="153">Python</text>
+  <rect class="chip-bg" x="92.0" y="138" width="120.0" height="22" rx="11"/>
+<text class="chip-text" x="102.0" y="153">Knowledge base</text>
 </svg>
