@@ -15,7 +15,7 @@
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
     <circle cx="31" cy="29" r="5" fill="#16a34a"/>
     <text x="44" y="34" font-size="12" font-weight="700" letter-spacing="1.2" fill="#111827">BUILD SIGNAL</text>
-    <text x="889" y="34" text-anchor="end" font-size="10" fill="#526178">UPDATED 2026-08-31 UTC</text>
+    <text x="889" y="34" text-anchor="end" font-size="10" fill="#526178">UPDATED 2026-09-01 UTC</text>
     <g transform="translate(30 54)">
     <rect width="198" height="78" rx="12" fill="#ffffff" stroke="#d7e0ec"/>
     <rect x="14" y="14" width="4" height="50" rx="2" fill="url(#signal)"/>
