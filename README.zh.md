@@ -61,4 +61,5 @@
 <div align="center">
   <sub>带着好奇构建，用真实证据交付。</sub><br><br>
   <img src="https://komarev.com/ghpvc/?username=z-Zihan&color=2563eb&style=flat-square&label=profile+views" alt="主页访问量">
+  <a href="https://x.com/zZihan01"><img src="https://img.shields.io/badge/X-%40zZihan01-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"></a>
 </div>
