@@ -61,5 +61,7 @@ I enjoy meeting people who are thinking seriously about AI products, frontend sy
 <div align="center">
   <sub>Build with curiosity. Ship with evidence.</sub><br><br>
   <img src="https://komarev.com/ghpvc/?username=z-Zihan&color=2563eb&style=flat-square&label=profile+views" alt="Profile views">
+- Star a project if you find it useful, it genuinely helps.
+  
   <a href="https://x.com/zZihan01"><img src="https://img.shields.io/badge/X-%40zZihan01-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"></a>
 </div>
