@@ -16,6 +16,8 @@ I'm an AI Agent engineer in Beijing, working at the intersection of **agent syst
 
 Right now, I am building tools that help people work with their own models and help AI agents work with one another.
 
+I write about how these systems actually behave in production — the wins, the breakages, and the trade-offs — on my blog: **[zzihanaini.vercel.app](https://zzihanaini.vercel.app)** 📝
+
 <!-- build-signal:start -->
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/build-signal-mobile-dark.svg">
@@ -64,4 +66,5 @@ I enjoy meeting people who are thinking seriously about AI products, frontend sy
 - Star a project if you find it useful, it genuinely helps.
   
   <a href="https://x.com/zZihan01"><img src="https://img.shields.io/badge/X-%40zZihan01-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"></a>
+  <a href="https://zzihanaini.vercel.app"><img src="https://img.shields.io/badge/Blog-zzihanaini.vercel.app-8b5cf6?style=flat-square&logo=vercel&logoColor=white" alt="Blog"></a>
 </div>

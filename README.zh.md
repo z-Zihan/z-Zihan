@@ -16,6 +16,8 @@
 
 最近，我在构建让人们自由使用自己的模型、也让不同 AI Agent 能够彼此协作的工具。
 
+我把这些系统在生产环境里的真实表现——哪些成了，哪些炸了，代价是什么——写在博客里：**[zzihanaini.vercel.app](https://zzihanaini.vercel.app)** 📝
+
 <!-- build-signal:start -->
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/build-signal-mobile-dark.svg">
@@ -64,4 +66,5 @@
 - 觉得哪个项目有用，点个 Star 也是很实在的支持。
   
   <a href="https://x.com/zZihan01"><img src="https://img.shields.io/badge/X-%40zZihan01-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"></a>
+  <a href="https://zzihanaini.vercel.app"><img src="https://img.shields.io/badge/博客-zzihanaini.vercel.app-8b5cf6?style=flat-square&logo=vercel&logoColor=white" alt="博客"></a>
 </div>
