@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">my-personal-site</title>
-  <desc id="desc">Personal blog and portfolio — React 19, Vite, Supabase, deployed on Vercel Edge.</desc>
+  <desc id="desc">Personal blog &amp; portfolio, 52 deep-dives.</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,7 +15,7 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="18"/>
+      <feGaussianBlur stdDeviation="16"/>
     </filter>
     <style>
       .bg-a { stop-color: #f8fafc; }
@@ -25,15 +25,14 @@
       .ic-a { stop-color: #4f46e5; }
       .ic-b { stop-color: #818cf8; }
       .card { fill: url(#cardGrad); stroke: #d9e1ec; }
-      .blob { fill: url(#iconGrad); opacity: 0.08; }
+      .blob { fill: url(#iconGrad); opacity: 0.07; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #818cf8; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .ext-link { fill: none; stroke: #818cf8; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.6; }
       .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e3e9f2; }
       .chip-bg { fill: #e0e7ff; }
-      .chip-text { fill: #4f46e5; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .chip-text { fill: #4f46e5; font: 600 9.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
@@ -42,29 +41,26 @@
         .ic-a { stop-color: #818cf8; }
         .ic-b { stop-color: #a5b4fc; }
         .card { stroke: #30363d; }
-        .blob { opacity: 0.11; }
-        .ext-link { stroke: #a5b4fc; opacity: 0.7; }
+        .blob { opacity: 0.10; }
+        .ext-link { stroke: #a5b4fc; opacity: 0.65; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
-        .divider { stroke: #242c38; }
         .chip-bg { fill: #1e2142; }
         .chip-text { fill: #a5b4fc; }
       }
     </style>
   </defs>
   <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
-  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
-  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
-  <g class="icon" transform="translate(26.5,26.5)"><path d="M12 3.2l8 3.6v5.4c0 4.9-3.4 8.1-8 9.6-4.6-1.5-8-4.7-8-9.6V6.8z"/><path d="M8.6 11.6l2.3 2.3 4.5-4.5"/></g>
-  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
-  <text class="name" x="88" y="42">my-personal-site</text>
-  <text class="desc" x="88" y="63">Personal blog &amp; portfolio with 52 curated</text>
-  <text class="desc" x="88" y="80">deep-dives. React 19 · Supabase · Vercel Edge.</text>
-  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
-  <rect class="chip-bg" x="88.0" y="97" width="64.8" height="19" rx="9.5"/>
-  <text class="chip-text" x="96.0" y="110">React 19</text>
-  <rect class="chip-bg" x="160.8" y="97" width="64.8" height="19" rx="9.5"/>
-  <text class="chip-text" x="168.8" y="110">Supabase</text>
-  <rect class="chip-bg" x="233.6" y="97" width="34.3" height="19" rx="9.5"/>
-  <text class="chip-text" x="241.6" y="110">PWA</text>
+  <circle class="blob" cx="410" cy="96" r="40" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="21" width="48" height="48" rx="12"/>
+  <g class="icon" transform="translate(28.0,33.0)"><path d="M12 3.2l8 3.6v5.4c0 4.9-3.4 8.1-8 9.6-4.6-1.5-8-4.7-8-9.6V6.8z"/><path d="M8.6 11.6l2.3 2.3 4.5-4.5"/></g>
+  <g class="ext-link" transform="translate(420,41)"><path d="M5 11L11 5M5.8 5H11v5.2"/></g>
+  <text class="name" x="84" y="40">my-personal-site</text>
+  <text class="desc" x="84" y="62">Personal blog &amp; portfolio, 52 deep-dives.</text>
+  <rect class="chip-bg" x="84.0" y="76" width="60.4" height="19" rx="9.5"/>
+  <text class="chip-text" x="91.0" y="90">React 19</text>
+  <rect class="chip-bg" x="151.4" y="76" width="60.4" height="19" rx="9.5"/>
+  <text class="chip-text" x="158.4" y="90">Supabase</text>
+  <rect class="chip-bg" x="218.8" y="76" width="31.4" height="19" rx="9.5"/>
+  <text class="chip-text" x="225.8" y="90">PWA</text>
 </svg>

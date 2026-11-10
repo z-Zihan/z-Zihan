@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">LLM-101</title>
-  <desc id="desc">A knowledge map from zero to AI: LLM, RAG, Agent, MCP and coding agents.</desc>
+  <desc id="desc">Zero-to-one AI knowledge map: LLM, RAG, Agent, MCP.</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,7 +15,7 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="18"/>
+      <feGaussianBlur stdDeviation="16"/>
     </filter>
     <style>
       .bg-a { stop-color: #f8fafc; }
@@ -25,15 +25,14 @@
       .ic-a { stop-color: #2563eb; }
       .ic-b { stop-color: #60a5fa; }
       .card { fill: url(#cardGrad); stroke: #d9e1ec; }
-      .blob { fill: url(#iconGrad); opacity: 0.08; }
+      .blob { fill: url(#iconGrad); opacity: 0.07; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #60a5fa; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .ext-link { fill: none; stroke: #60a5fa; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.6; }
       .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e3e9f2; }
       .chip-bg { fill: #dbeafe; }
-      .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .chip-text { fill: #2563eb; font: 600 9.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
@@ -42,29 +41,26 @@
         .ic-a { stop-color: #60a5fa; }
         .ic-b { stop-color: #93c5fd; }
         .card { stroke: #30363d; }
-        .blob { opacity: 0.11; }
-        .ext-link { stroke: #93c5fd; opacity: 0.7; }
+        .blob { opacity: 0.10; }
+        .ext-link { stroke: #93c5fd; opacity: 0.65; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
-        .divider { stroke: #242c38; }
         .chip-bg { fill: #1c2a44; }
         .chip-text { fill: #93c5fd; }
       }
     </style>
   </defs>
   <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
-  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
-  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
-  <g class="icon" transform="translate(26.5,26.5)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
-  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
-  <text class="name" x="88" y="42">LLM-101</text>
-  <text class="desc" x="88" y="63">A zero-to-one knowledge map: LLM → RAG → Agent</text>
-  <text class="desc" x="88" y="80">→ MCP → coding agents, built for real beginners.</text>
-  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
-  <rect class="chip-bg" x="88.0" y="97" width="28.2" height="19" rx="9.5"/>
-  <text class="chip-text" x="96.0" y="110">AI</text>
-  <rect class="chip-bg" x="124.2" y="97" width="90.9" height="19" rx="9.5"/>
-  <text class="chip-text" x="132.2" y="110">课程 / Course</text>
-  <rect class="chip-bg" x="223.1" y="97" width="36.0" height="19" rx="9.5"/>
-  <text class="chip-text" x="231.1" y="110">中文</text>
+  <circle class="blob" cx="410" cy="96" r="40" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="21" width="48" height="48" rx="12"/>
+  <g class="icon" transform="translate(28.0,33.0)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
+  <g class="ext-link" transform="translate(420,41)"><path d="M5 11L11 5M5.8 5H11v5.2"/></g>
+  <text class="name" x="84" y="40">LLM-101</text>
+  <text class="desc" x="84" y="62">Zero-to-one AI knowledge map: LLM, RAG, Agent, MCP.</text>
+  <rect class="chip-bg" x="84.0" y="76" width="25.6" height="19" rx="9.5"/>
+  <text class="chip-text" x="91.0" y="90">AI</text>
+  <rect class="chip-bg" x="116.6" y="76" width="48.8" height="19" rx="9.5"/>
+  <text class="chip-text" x="123.6" y="90">course</text>
+  <rect class="chip-bg" x="172.4" y="76" width="77.8" height="19" rx="9.5"/>
+  <text class="chip-text" x="179.4" y="90">open source</text>
 </svg>

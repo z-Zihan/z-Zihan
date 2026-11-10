@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">build-meta-injector</title>
-  <desc id="desc">Inject build time, version, environment and Git metadata into HTML across Vite, Webpack, Rollup, Rspack and esbuild.</desc>
+  <desc id="desc">Inject build/version/Git metadata into HTML.</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,7 +15,7 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="18"/>
+      <feGaussianBlur stdDeviation="16"/>
     </filter>
     <style>
       .bg-a { stop-color: #f8fafc; }
@@ -25,15 +25,14 @@
       .ic-a { stop-color: #d97706; }
       .ic-b { stop-color: #fbbf24; }
       .card { fill: url(#cardGrad); stroke: #d9e1ec; }
-      .blob { fill: url(#iconGrad); opacity: 0.08; }
+      .blob { fill: url(#iconGrad); opacity: 0.07; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #fbbf24; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .ext-link { fill: none; stroke: #fbbf24; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.6; }
       .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e3e9f2; }
       .chip-bg { fill: #fef3c7; }
-      .chip-text { fill: #d97706; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .chip-text { fill: #d97706; font: 600 9.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
@@ -42,29 +41,26 @@
         .ic-a { stop-color: #fbbf24; }
         .ic-b { stop-color: #fcd34d; }
         .card { stroke: #30363d; }
-        .blob { opacity: 0.11; }
-        .ext-link { stroke: #fcd34d; opacity: 0.7; }
+        .blob { opacity: 0.10; }
+        .ext-link { stroke: #fcd34d; opacity: 0.65; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
-        .divider { stroke: #242c38; }
         .chip-bg { fill: #33240e; }
         .chip-text { fill: #fcd34d; }
       }
     </style>
   </defs>
   <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
-  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
-  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
-  <g class="icon" transform="translate(26.5,26)"><path d="M12 3.2l7.6 4.3v8.6L12 20.4l-7.6-4.3V7.5z"/><path d="M12 11.8V3.2M12 11.8l7.6-4.3M12 11.8l-7.6-4.3"/></g>
-  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
-  <text class="name" x="88" y="42">build-meta-injector</text>
-  <text class="desc" x="88" y="63">Inject build time, version &amp; Git metadata into HTML.</text>
-  <text class="desc" x="88" y="80">Works with Vite, Webpack, Rollup, Rspack, esbuild.</text>
-  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
-  <rect class="chip-bg" x="88.0" y="97" width="40.4" height="19" rx="9.5"/>
-  <text class="chip-text" x="96.0" y="110">Vite</text>
-  <rect class="chip-bg" x="136.4" y="97" width="58.7" height="19" rx="9.5"/>
-  <text class="chip-text" x="144.4" y="110">Webpack</text>
-  <rect class="chip-bg" x="203.1" y="97" width="52.6" height="19" rx="9.5"/>
-  <text class="chip-text" x="211.1" y="110">Plugin</text>
+  <circle class="blob" cx="410" cy="96" r="40" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="21" width="48" height="48" rx="12"/>
+  <g class="icon" transform="translate(28.0,33.0)"><path d="M12 3.2l7.6 4.3v8.6L12 20.4l-7.6-4.3V7.5z"/><path d="M12 11.8V3.2M12 11.8l7.6-4.3M12 11.8l-7.6-4.3"/></g>
+  <g class="ext-link" transform="translate(420,41)"><path d="M5 11L11 5M5.8 5H11v5.2"/></g>
+  <text class="name" x="84" y="40">build-meta-injector</text>
+  <text class="desc" x="84" y="62">Inject build/version/Git metadata into HTML.</text>
+  <rect class="chip-bg" x="84.0" y="76" width="37.2" height="19" rx="9.5"/>
+  <text class="chip-text" x="91.0" y="90">Vite</text>
+  <rect class="chip-bg" x="128.2" y="76" width="54.6" height="19" rx="9.5"/>
+  <text class="chip-text" x="135.2" y="90">Webpack</text>
+  <rect class="chip-bg" x="189.8" y="76" width="48.8" height="19" rx="9.5"/>
+  <text class="chip-text" x="196.8" y="90">plugin</text>
 </svg>

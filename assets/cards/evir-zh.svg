@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">Evir</title>
-  <desc id="desc">由你自己的模型驱动的本地优先桌面 AI Agent——文件、终端、工具。</desc>
+  <desc id="desc">由你自己的模型驱动的本地优先桌面 AI Agent。</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,7 +15,7 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="18"/>
+      <feGaussianBlur stdDeviation="16"/>
     </filter>
     <style>
       .bg-a { stop-color: #f8fafc; }
@@ -25,15 +25,14 @@
       .ic-a { stop-color: #0d9488; }
       .ic-b { stop-color: #2dd4bf; }
       .card { fill: url(#cardGrad); stroke: #d9e1ec; }
-      .blob { fill: url(#iconGrad); opacity: 0.08; }
+      .blob { fill: url(#iconGrad); opacity: 0.07; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #2dd4bf; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .ext-link { fill: none; stroke: #2dd4bf; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.6; }
       .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e3e9f2; }
       .chip-bg { fill: #e3f8f2; }
-      .chip-text { fill: #0d9488; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .chip-text { fill: #0d9488; font: 600 9.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
@@ -42,29 +41,26 @@
         .ic-a { stop-color: #2dd4bf; }
         .ic-b { stop-color: #5eead4; }
         .card { stroke: #30363d; }
-        .blob { opacity: 0.11; }
-        .ext-link { stroke: #5eead4; opacity: 0.7; }
+        .blob { opacity: 0.10; }
+        .ext-link { stroke: #5eead4; opacity: 0.65; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
-        .divider { stroke: #242c38; }
         .chip-bg { fill: #16302c; }
         .chip-text { fill: #5eead4; }
       }
     </style>
   </defs>
   <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
-  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
-  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
-  <g class="icon" transform="translate(26.5,27)"><rect x="3.2" y="5" width="17.6" height="14" rx="3"/><path d="M7 10.4l2.6 2.1-2.6 2.1"/><path d="M12.6 14.5h4.2"/></g>
-  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
-  <text class="name" x="88" y="42">Evir</text>
-  <text class="desc" x="88" y="63">由你自己的模型驱动的本地优先桌面 Agent，</text>
-  <text class="desc" x="88" y="80">文件、终端、工具全掌控。</text>
-  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
-  <rect class="chip-bg" x="88.0" y="97" width="77.0" height="19" rx="9.5"/>
-  <text class="chip-text" x="96.0" y="110">TypeScript</text>
-  <rect class="chip-bg" x="173.0" y="97" width="46.5" height="19" rx="9.5"/>
-  <text class="chip-text" x="181.0" y="110">React</text>
-  <rect class="chip-bg" x="227.5" y="97" width="46.5" height="19" rx="9.5"/>
-  <text class="chip-text" x="235.5" y="110">Tauri</text>
+  <circle class="blob" cx="410" cy="96" r="40" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="21" width="48" height="48" rx="12"/>
+  <g class="icon" transform="translate(28.0,33.0)"><rect x="3.2" y="5" width="17.6" height="14" rx="3"/><path d="M7 10.4l2.6 2.1-2.6 2.1"/><path d="M12.6 14.5h4.2"/></g>
+  <g class="ext-link" transform="translate(420,41)"><path d="M5 11L11 5M5.8 5H11v5.2"/></g>
+  <text class="name" x="84" y="40">Evir</text>
+  <text class="desc" x="84" y="62">由你自己的模型驱动的本地优先桌面 AI Agent。</text>
+  <rect class="chip-bg" x="84.0" y="76" width="72.0" height="19" rx="9.5"/>
+  <text class="chip-text" x="91.0" y="90">TypeScript</text>
+  <rect class="chip-bg" x="163.0" y="76" width="43.0" height="19" rx="9.5"/>
+  <text class="chip-text" x="170.0" y="90">React</text>
+  <rect class="chip-bg" x="213.0" y="76" width="43.0" height="19" rx="9.5"/>
+  <text class="chip-text" x="220.0" y="90">Tauri</text>
 </svg>
