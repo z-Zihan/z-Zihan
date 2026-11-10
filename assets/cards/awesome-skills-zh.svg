@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">awesome-skills</title>
-  <desc id="desc">面向编程 Agent 和日常工程工作流的实用、可复用 Skills。</desc>
+  <desc id="desc">日常开发技能、前端知识与工程实践的精选合集，经 CI 自动发布到 ClawHub。</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,60 +15,56 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="16"/>
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
     <style>
-      .bg-a { stop-color: #f7f9fc; }
-      .bg-b { stop-color: #edf3fb; }
-      .tile-a { stop-color: #fdeaf3; }
+      .bg-a { stop-color: #f8fafc; }
+      .bg-b { stop-color: #eef2f8; }
+      .tile-a { stop-color: #fce7f3; }
       .tile-b { stop-color: #fbcfe8; }
       .ic-a { stop-color: #db2777; }
       .ic-b { stop-color: #f472b6; }
-      .card { fill: url(#cardGrad); stroke: #d7e0ec; }
-      .edge-hi { stroke: #ffffff; stroke-opacity: 0.55; }
-      .blob { fill: url(#iconGrad); opacity: 0.07; }
+      .card { fill: url(#cardGrad); stroke: #d9e1ec; }
+      .blob { fill: url(#iconGrad); opacity: 0.08; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #ec4899; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; }
-      .ext-link-bg { fill: url(#iconGrad); opacity: 0.16; }
-      .name { fill: #0f172a; font: 700 16px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .desc { fill: #57606a; font: 400 12px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e2e8f0; }
-      .chip-bg { fill: #fdeaf3; }
-      .chip-text { fill: #be185d; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .ext-link { fill: none; stroke: #f472b6; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .divider { stroke: #e3e9f2; }
+      .chip-bg { fill: #fce7f3; }
+      .chip-text { fill: #db2777; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
-        .tile-a { stop-color: #34202a; }
-        .tile-b { stop-color: #3d2231; }
+        .tile-a { stop-color: #36192b; }
+        .tile-b { stop-color: #3f1e33; }
         .ic-a { stop-color: #f472b6; }
         .ic-b { stop-color: #f9a8d4; }
         .card { stroke: #30363d; }
-        .edge-hi { stroke-opacity: 0.05; }
-        .blob { opacity: 0.10; }
-        .ext-link { stroke: #f9a8d4; }
-        .ext-link-bg { opacity: 0.26; }
+        .blob { opacity: 0.11; }
+        .ext-link { stroke: #f9a8d4; opacity: 0.7; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
         .divider { stroke: #242c38; }
-        .chip-bg { fill: #34202a; }
+        .chip-bg { fill: #36192b; }
         .chip-text { fill: #f9a8d4; }
       }
     </style>
   </defs>
-  <rect class="card" x="1" y="1" width="298" height="148" rx="18"/>
-  <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
-  <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
-  <rect class="tile" x="14" y="10" width="44" height="44" rx="12"/>
-  <g class="icon" transform="translate(27.3,20.0)"><path d="M13.2 2.6L5.6 13.4h5.2l-1 8 8.4-11.2h-5.6z"/></g>
-  <circle class="ext-link-bg" cx="267.6" cy="19.6" r="14"/>
-  <g class="ext-link" transform="translate(250.8,2.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
-  <text class="name" x="68" y="37">awesome-skills</text>
-  <text class="desc" x="14" y="66">面向编程 Agent 和日常工程</text>
-  <text class="desc" x="14" y="82">工作流的实用、可复用 Skills。</text>
-  <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
-  <rect class="chip-bg" x="79.5" y="112" width="54.0" height="20" rx="10"/>
-<text class="chip-text" x="89.5" y="127">Python</text>
-  <rect class="chip-bg" x="139.5" y="112" width="81.0" height="20" rx="10"/>
-<text class="chip-text" x="149.5" y="127">Agent 工具链</text>
+  <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
+  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
+  <g class="icon" transform="translate(26.5,26.5)"><path d="M13.2 2.6L5.6 13.4h5.2l-1 8 8.4-11.2h-5.6z"/></g>
+  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
+  <text class="name" x="88" y="42">awesome-skills</text>
+  <text class="desc" x="88" y="63">日常开发技能、前端知识与工程实践精选，</text>
+  <text class="desc" x="88" y="80">经 CI 自动发布到 ClawHub。</text>
+  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
+  <rect class="chip-bg" x="88.0" y="97" width="64.8" height="19" rx="9.5"/>
+  <text class="chip-text" x="96.0" y="110">OpenClaw</text>
+  <rect class="chip-bg" x="160.8" y="97" width="46.5" height="19" rx="9.5"/>
+  <text class="chip-text" x="168.8" y="110">CI/CD</text>
+  <rect class="chip-bg" x="215.3" y="97" width="58.7" height="19" rx="9.5"/>
+  <text class="chip-text" x="223.3" y="110">ClawHub</text>
 </svg>

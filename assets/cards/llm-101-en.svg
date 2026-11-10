@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">LLM-101</title>
-  <desc id="desc">Knowledge map from AI &amp; LLM to RAG, Agents, MCP &amp; Coding Agents.</desc>
+  <desc id="desc">A knowledge map from zero to AI: LLM, RAG, Agent, MCP and coding agents.</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,60 +15,56 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="16"/>
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
     <style>
-      .bg-a { stop-color: #f7f9fc; }
-      .bg-b { stop-color: #edf3fb; }
-      .tile-a { stop-color: #eaf1fd; }
-      .tile-b { stop-color: #dbe7fb; }
+      .bg-a { stop-color: #f8fafc; }
+      .bg-b { stop-color: #eef2f8; }
+      .tile-a { stop-color: #dbeafe; }
+      .tile-b { stop-color: #bfdbfe; }
       .ic-a { stop-color: #2563eb; }
       .ic-b { stop-color: #60a5fa; }
-      .card { fill: url(#cardGrad); stroke: #d7e0ec; }
-      .edge-hi { stroke: #ffffff; stroke-opacity: 0.55; }
-      .blob { fill: url(#iconGrad); opacity: 0.07; }
+      .card { fill: url(#cardGrad); stroke: #d9e1ec; }
+      .blob { fill: url(#iconGrad); opacity: 0.08; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #2563eb; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; }
-      .ext-link-bg { fill: url(#iconGrad); opacity: 0.16; }
-      .name { fill: #0f172a; font: 700 16px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .desc { fill: #57606a; font: 400 12px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e2e8f0; }
+      .ext-link { fill: none; stroke: #60a5fa; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .divider { stroke: #e3e9f2; }
       .chip-bg { fill: #dbeafe; }
       .chip-text { fill: #2563eb; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
         .bg-a { stop-color: #161b22; }
         .bg-b { stop-color: #1a2029; }
-        .tile-a { stop-color: #1d2433; }
-        .tile-b { stop-color: #212a3d; }
+        .tile-a { stop-color: #1c2a44; }
+        .tile-b { stop-color: #1e3352; }
         .ic-a { stop-color: #60a5fa; }
         .ic-b { stop-color: #93c5fd; }
         .card { stroke: #30363d; }
-        .edge-hi { stroke-opacity: 0.05; }
-        .blob { opacity: 0.10; }
-        .ext-link { stroke: #93c5fd; }
-        .ext-link-bg { opacity: 0.26; }
+        .blob { opacity: 0.11; }
+        .ext-link { stroke: #93c5fd; opacity: 0.7; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
         .divider { stroke: #242c38; }
-        .chip-bg { fill: #16233d; }
+        .chip-bg { fill: #1c2a44; }
         .chip-text { fill: #93c5fd; }
       }
     </style>
   </defs>
-  <rect class="card" x="1" y="1" width="298" height="148" rx="18"/>
-  <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
-  <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
-  <rect class="tile" x="14" y="10" width="44" height="44" rx="12"/>
-  <g class="icon" transform="translate(24.0,20.0)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
-  <circle class="ext-link-bg" cx="267.6" cy="19.6" r="14"/>
-  <g class="ext-link" transform="translate(250.8,2.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
-  <text class="name" x="68" y="37">LLM-101</text>
-  <text class="desc" x="14" y="66">Knowledge map from AI &amp; LLM to RAG,</text>
-  <text class="desc" x="14" y="82">Agents, MCP &amp; Coding Agents.</text>
-  <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
-  <rect class="chip-bg" x="69.5" y="112" width="54.0" height="20" rx="10"/>
-<text class="chip-text" x="79.5" y="127">Python</text>
-  <rect class="chip-bg" x="131.5" y="112" width="99.0" height="20" rx="10"/>
-<text class="chip-text" x="141.5" y="127">Knowledge base</text>
+  <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
+  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
+  <g class="icon" transform="translate(26.5,26.5)"><circle cx="12" cy="12" r="2.3"/><circle cx="5" cy="5.3" r="1.7"/><circle cx="19" cy="5.3" r="1.7"/><circle cx="5" cy="18.7" r="1.7"/><circle cx="19" cy="18.7" r="1.7"/><path d="M9.9 10.1L6.3 6.7M14.1 10.1l3.6-3.4M9.9 13.9l-3.6 3.4M14.1 13.9l3.6 3.4"/></g>
+  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
+  <text class="name" x="88" y="42">LLM-101</text>
+  <text class="desc" x="88" y="63">A zero-to-one knowledge map: LLM → RAG → Agent</text>
+  <text class="desc" x="88" y="80">→ MCP → coding agents, built for real beginners.</text>
+  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
+  <rect class="chip-bg" x="88.0" y="97" width="28.2" height="19" rx="9.5"/>
+  <text class="chip-text" x="96.0" y="110">AI</text>
+  <rect class="chip-bg" x="124.2" y="97" width="90.9" height="19" rx="9.5"/>
+  <text class="chip-text" x="132.2" y="110">课程 / Course</text>
+  <rect class="chip-bg" x="223.1" y="97" width="36.0" height="19" rx="9.5"/>
+  <text class="chip-text" x="231.1" y="110">中文</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
   <title id="title">Evir</title>
-  <desc id="desc">Local-first desktop agent powered by your own models — files, terminal, tools.</desc>
+  <desc id="desc">Local-first desktop AI agent powered by your own models — files, terminal, tools.</desc>
   <defs>
     <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
       <stop class="bg-a" offset="0"/>
@@ -15,25 +15,23 @@
       <stop class="ic-b" offset="1"/>
     </linearGradient>
     <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="16"/>
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
     <style>
-      .bg-a { stop-color: #f7f9fc; }
-      .bg-b { stop-color: #edf3fb; }
+      .bg-a { stop-color: #f8fafc; }
+      .bg-b { stop-color: #eef2f8; }
       .tile-a { stop-color: #e3f8f2; }
       .tile-b { stop-color: #c7f1e4; }
       .ic-a { stop-color: #0d9488; }
       .ic-b { stop-color: #2dd4bf; }
-      .card { fill: url(#cardGrad); stroke: #d7e0ec; }
-      .edge-hi { stroke: #ffffff; stroke-opacity: 0.55; }
-      .blob { fill: url(#iconGrad); opacity: 0.07; }
+      .card { fill: url(#cardGrad); stroke: #d9e1ec; }
+      .blob { fill: url(#iconGrad); opacity: 0.08; }
       .tile { fill: url(#tileGrad); }
       .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-      .ext-link { fill: none; stroke: #14b8a6; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; }
-      .ext-link-bg { fill: url(#iconGrad); opacity: 0.16; }
-      .name { fill: #0f172a; font: 700 16px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .desc { fill: #57606a; font: 400 12px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
-      .divider { stroke: #e2e8f0; }
+      .ext-link { fill: none; stroke: #2dd4bf; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .divider { stroke: #e3e9f2; }
       .chip-bg { fill: #e3f8f2; }
       .chip-text { fill: #0d9488; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
       @media (prefers-color-scheme: dark) {
@@ -44,10 +42,8 @@
         .ic-a { stop-color: #2dd4bf; }
         .ic-b { stop-color: #5eead4; }
         .card { stroke: #30363d; }
-        .edge-hi { stroke-opacity: 0.05; }
-        .blob { opacity: 0.10; }
-        .ext-link { stroke: #5eead4; }
-        .ext-link-bg { opacity: 0.26; }
+        .blob { opacity: 0.11; }
+        .ext-link { stroke: #5eead4; opacity: 0.7; }
         .name { fill: #e6edf3; }
         .desc { fill: #8b949e; }
         .divider { stroke: #242c38; }
@@ -56,21 +52,19 @@
       }
     </style>
   </defs>
-  <rect class="card" x="1" y="1" width="298" height="148" rx="18"/>
-  <circle class="blob" cx="252" cy="130" r="42" filter="url(#blobBlur)"/>
-  <path class="edge-hi" d="M13 2.2H287" stroke-width="1"/>
-  <rect class="tile" x="14" y="10" width="44" height="44" rx="12"/>
-  <g class="icon" transform="translate(24.1,19.6)"><rect x="3.2" y="5" width="17.6" height="14" rx="3"/><path d="M7 10.4l2.6 2.1-2.6 2.1"/><path d="M12.6 14.5h4.2"/></g>
-  <circle class="ext-link-bg" cx="267.6" cy="19.6" r="14"/>
-  <g class="ext-link" transform="translate(250.8,2.8) scale(1.4)"><path d="M8.5 15.5L15.5 8.5M9.5 8.5h6v6"/></g>
-  <text class="name" x="68" y="37">Evir</text>
-  <text class="desc" x="14" y="66">Local-first desktop agent powered by</text>
-  <text class="desc" x="14" y="82">your own models — files, terminal, tools.</text>
-  <line class="divider" x1="14" y1="96" x2="286" y2="96"/>
-  <rect class="chip-bg" x="62.5" y="112" width="72.0" height="20" rx="10"/>
-<text class="chip-text" x="72.5" y="127">TypeScript</text>
-  <rect class="chip-bg" x="140.5" y="112" width="47.0" height="20" rx="10"/>
-<text class="chip-text" x="150.5" y="127">React</text>
-  <rect class="chip-bg" x="193.5" y="112" width="44.0" height="20" rx="10"/>
-<text class="chip-text" x="203.5" y="127">Tauri</text>
+  <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
+  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
+  <g class="icon" transform="translate(26.5,27)"><rect x="3.2" y="5" width="17.6" height="14" rx="3"/><path d="M7 10.4l2.6 2.1-2.6 2.1"/><path d="M12.6 14.5h4.2"/></g>
+  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
+  <text class="name" x="88" y="42">Evir</text>
+  <text class="desc" x="88" y="63">Local-first desktop AI agent powered by</text>
+  <text class="desc" x="88" y="80">your own models — files, terminal, tools.</text>
+  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
+  <rect class="chip-bg" x="88.0" y="97" width="77.0" height="19" rx="9.5"/>
+  <text class="chip-text" x="96.0" y="110">TypeScript</text>
+  <rect class="chip-bg" x="173.0" y="97" width="46.5" height="19" rx="9.5"/>
+  <text class="chip-text" x="181.0" y="110">React</text>
+  <rect class="chip-bg" x="227.5" y="97" width="46.5" height="19" rx="9.5"/>
+  <text class="chip-text" x="235.5" y="110">Tauri</text>
 </svg>

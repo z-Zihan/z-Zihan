@@ -31,13 +31,16 @@
 ## 代表作品
 
 <p align="left">
-  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg?v=3" width="45%" alt="Chorus"></a>
-  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg?v=3" width="45%" alt="Evir"></a>
+  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg?v=4" width="49%" alt="Evir — 由你自己的模型驱动的本地优先桌面 AI Agent"></a>
+  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg?v=4" width="49%" alt="Chorus — AI Agent 的本地优先协作工作区"></a>
   <br>
-  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg?v=3" width="45%" alt="build-meta-injector"></a>
-  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg?v=3" width="45%" alt="awesome-skills"></a>
+  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg?v=4" width="49%" alt="awesome-skills — 经 CI 自动发布到 ClawHub 的技能精选"></a>
+  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg?v=4" width="49%" alt="LLM-101 — 从 0 开始的 AI 知识地图"></a>
   <br>
-  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg?v=3" width="45%" alt="LLM-101"></a>
+  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg?v=4" width="49%" alt="build-meta-injector — 把构建元数据注入 HTML"></a>
+  <a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-zh.svg?v=4" width="49%" alt="my-personal-site — 个人博客与作品集"></a>
+  <br>
+  <a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-zh.svg?v=4" width="49%" alt="study-mode — 专注学习模式的浏览器扩展"></a>
 </p>
 
 ## 我正在探索
@@ -53,18 +56,18 @@
 
 我会围绕产品选择技术：多数界面和 Agent 工作使用 TypeScript；桌面系统边界需要可靠性时使用 Rust；自动化任务则常用 Python。
 
-## 一起做点真正有用的事
-
-我很愿意认识同样认真思考 AI 产品、前端系统、开源，以及 Agent 协作方式的朋友。
-
-- 你可以从上面的项目开始，在合适的仓库里提出想法或 Issue。
-- 关注 [@z-Zihan](https://github.com/z-Zihan)，看看接下来会发布什么。
+---
 
 <div align="center">
-  <sub>带着好奇构建，用真实证据交付。</sub><br><br>
-  <img src="https://komarev.com/ghpvc/?username=z-Zihan&color=2563eb&style=flat-square&label=profile+views" alt="主页访问量">
-- 觉得哪个项目有用，点个 Star 也是很实在的支持。
-  
-  <a href="https://x.com/zZihan01"><img src="https://img.shields.io/badge/X-%40zZihan01-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"></a>
-  <a href="https://zzihanaini.vercel.app"><img src="https://img.shields.io/badge/博客-zzihanaini.vercel.app-8b5cf6?style=flat-square&logo=vercel&logoColor=white" alt="博客"></a>
+
+我很愿意认识同样认真思考 **AI 产品、前端系统、开源与 Agent 协作** 的朋友——欢迎从上面的项目开始，在合适的仓库提出想法或 Issue，也可以关注我看看接下来会发布什么。
+
+<a href="https://x.com/zZihan01"><img src="https://img.shields.io/badge/X-%40zZihan01-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"></a>
+<a href="https://zzihanaini.vercel.app"><img src="https://img.shields.io/badge/博客-zzihanaini.vercel.app-24292f?style=flat-square&logo=vercel&logoColor=white" alt="博客"></a>
+<a href="https://github.com/z-Zihan?tab=repositories"><img src="https://img.shields.io/badge/仓库-z--Zihan%2Frepos-24292f?style=flat-square&logo=github&logoColor=white" alt="GitHub 仓库列表"></a>
+
+<img src="https://komarev.com/ghpvc/?username=z-Zihan&color=2563eb&style=flat-square&label=profile+views" alt="主页访问量">
+<br>
+<sub>觉得哪个项目有用，点个 Star 也是很实在的支持 · 带着好奇构建，用真实证据交付。</sub>
+
 </div>

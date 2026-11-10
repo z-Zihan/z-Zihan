@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="110" viewBox="0 0 460 110" role="img" aria-labelledby="title desc">
+  <title id="title">my-personal-site</title>
+  <desc id="desc">个人博客与作品集，React 19 + Supabase，部署于 Vercel Edge。</desc>
+  <defs>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop class="bg-a" offset="0"/>
+      <stop class="bg-b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop class="tile-a" offset="0"/>
+      <stop class="tile-b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop class="ic-a" offset="0"/>
+      <stop class="ic-b" offset="1"/>
+    </linearGradient>
+    <filter id="blobBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <style>
+      .bg-a { stop-color: #f8fafc; }
+      .bg-b { stop-color: #eef2f8; }
+      .tile-a { stop-color: #e0e7ff; }
+      .tile-b { stop-color: #c7d2fe; }
+      .ic-a { stop-color: #4f46e5; }
+      .ic-b { stop-color: #818cf8; }
+      .card { fill: url(#cardGrad); stroke: #d9e1ec; }
+      .blob { fill: url(#iconGrad); opacity: 0.08; }
+      .tile { fill: url(#tileGrad); }
+      .icon { fill: none; stroke: url(#iconGrad); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+      .ext-link { fill: none; stroke: #818cf8; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.65; }
+      .name { fill: #0f172a; font: 700 17px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .desc { fill: #57606a; font: 400 12.5px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .divider { stroke: #e3e9f2; }
+      .chip-bg { fill: #e0e7ff; }
+      .chip-text { fill: #4f46e5; font: 600 10px -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      @media (prefers-color-scheme: dark) {
+        .bg-a { stop-color: #161b22; }
+        .bg-b { stop-color: #1a2029; }
+        .tile-a { stop-color: #1e2142; }
+        .tile-b { stop-color: #232850; }
+        .ic-a { stop-color: #818cf8; }
+        .ic-b { stop-color: #a5b4fc; }
+        .card { stroke: #30363d; }
+        .blob { opacity: 0.11; }
+        .ext-link { stroke: #a5b4fc; opacity: 0.7; }
+        .name { fill: #e6edf3; }
+        .desc { fill: #8b949e; }
+        .divider { stroke: #242c38; }
+        .chip-bg { fill: #1e2142; }
+        .chip-text { fill: #a5b4fc; }
+      }
+    </style>
+  </defs>
+  <rect class="card" x="1" y="1" width="458" height="108" rx="16"/>
+  <circle class="blob" cx="416" cy="98" r="44" filter="url(#blobBlur)"/>
+  <rect class="tile" x="16" y="25" width="52" height="52" rx="13"/>
+  <g class="icon" transform="translate(26.5,26.5)"><path d="M12 3.2l8 3.6v5.4c0 4.9-3.4 8.1-8 9.6-4.6-1.5-8-4.7-8-9.6V6.8z"/><path d="M8.6 11.6l2.3 2.3 4.5-4.5"/></g>
+  <g class="ext-link" transform="translate(414,32)"><path d="M7 7H17M17 7V17M17 7L7 17"/></g>
+  <text class="name" x="88" y="42">my-personal-site</text>
+  <text class="desc" x="88" y="63">个人博客与作品集，52 篇精选长文。</text>
+  <text class="desc" x="88" y="80">React 19 · Supabase · Vercel Edge。</text>
+  <line class="divider" x1="88" y1="94" x2="404" y2="94"/>
+  <rect class="chip-bg" x="88.0" y="97" width="64.8" height="19" rx="9.5"/>
+  <text class="chip-text" x="96.0" y="110">React 19</text>
+  <rect class="chip-bg" x="160.8" y="97" width="64.8" height="19" rx="9.5"/>
+  <text class="chip-text" x="168.8" y="110">Supabase</text>
+  <rect class="chip-bg" x="233.6" y="97" width="34.3" height="19" rx="9.5"/>
+  <text class="chip-text" x="241.6" y="110">PWA</text>
+</svg>
