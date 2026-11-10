@@ -31,16 +31,13 @@ I write about how these systems actually behave in production — the wins, the 
 ## Selected work
 
 <p align="left">
-  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg?v=4" width="49%" alt="Evir — local-first desktop AI agent powered by your own models"></a>
-  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg?v=4" width="49%" alt="Chorus — local-first workspace for AI agent collaboration"></a>
+<a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg?v=4" width="48%" alt="Evir — local-first desktop AI agent powered by your own models"></a><a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg?v=4" width="48%" alt="Chorus — local-first workspace for AI agent collaboration"></a>
   <br>
-  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg?v=4" width="49%" alt="awesome-skills — curated agent skills published to ClawHub"></a>
-  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg?v=4" width="49%" alt="LLM-101 — a zero-to-one AI knowledge map"></a>
+<a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg?v=4" width="48%" alt="awesome-skills — curated agent skills published to ClawHub"></a><a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg?v=4" width="48%" alt="LLM-101 — a zero-to-one AI knowledge map"></a>
   <br>
-  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg?v=4" width="49%" alt="build-meta-injector — inject build metadata into HTML"></a>
-  <a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-en.svg?v=4" width="49%" alt="my-personal-site — personal blog and portfolio"></a>
+<a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg?v=4" width="48%" alt="build-meta-injector — inject build metadata into HTML"></a><a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-en.svg?v=4" width="48%" alt="my-personal-site — personal blog and portfolio"></a>
   <br>
-  <a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-en.svg?v=4" width="49%" alt="study-mode — browser extension for focused study"></a>
+<a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-en.svg?v=4" width="48%" alt="study-mode — browser extension for focused study"></a>
 </p>
 
 ## What I'm exploring

@@ -31,16 +31,13 @@
 ## 代表作品
 
 <p align="left">
-  <a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg?v=4" width="49%" alt="Evir — 由你自己的模型驱动的本地优先桌面 AI Agent"></a>
-  <a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg?v=4" width="49%" alt="Chorus — AI Agent 的本地优先协作工作区"></a>
+<a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg?v=4" width="48%" alt="Evir — 由你自己的模型驱动的本地优先桌面 AI Agent"></a><a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg?v=4" width="48%" alt="Chorus — AI Agent 的本地优先协作工作区"></a>
   <br>
-  <a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg?v=4" width="49%" alt="awesome-skills — 经 CI 自动发布到 ClawHub 的技能精选"></a>
-  <a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg?v=4" width="49%" alt="LLM-101 — 从 0 开始的 AI 知识地图"></a>
+<a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg?v=4" width="48%" alt="awesome-skills — 经 CI 自动发布到 ClawHub 的技能精选"></a><a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg?v=4" width="48%" alt="LLM-101 — 从 0 开始的 AI 知识地图"></a>
   <br>
-  <a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg?v=4" width="49%" alt="build-meta-injector — 把构建元数据注入 HTML"></a>
-  <a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-zh.svg?v=4" width="49%" alt="my-personal-site — 个人博客与作品集"></a>
+<a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg?v=4" width="48%" alt="build-meta-injector — 把构建元数据注入 HTML"></a><a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-zh.svg?v=4" width="48%" alt="my-personal-site — 个人博客与作品集"></a>
   <br>
-  <a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-zh.svg?v=4" width="49%" alt="study-mode — 专注学习模式的浏览器扩展"></a>
+<a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-zh.svg?v=4" width="48%" alt="study-mode — 专注学习模式的浏览器扩展"></a>
 </p>
 
 ## 我正在探索
