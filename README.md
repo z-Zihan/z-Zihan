@@ -30,15 +30,66 @@ I write about how these systems actually behave in production — the wins, the 
 
 ## Selected work
 
-<p align="left">
-<a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-en.svg?v=4" width="48%" alt="Evir — local-first desktop AI agent powered by your own models"></a><a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-en.svg?v=4" width="48%" alt="Chorus — local-first workspace for AI agent collaboration"></a>
-  <br>
-<a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-en.svg?v=4" width="48%" alt="awesome-skills — curated agent skills published to ClawHub"></a><a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-en.svg?v=4" width="48%" alt="LLM-101 — a zero-to-one AI knowledge map"></a>
-  <br>
-<a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-en.svg?v=4" width="48%" alt="build-meta-injector — inject build metadata into HTML"></a><a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-en.svg?v=4" width="48%" alt="my-personal-site — personal blog and portfolio"></a>
-  <br>
-<a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-en.svg?v=4" width="48%" alt="study-mode — browser extension for focused study"></a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/Evir"><img src="https://img.shields.io/badge/Evir-009488?style=for-the-badge&logo=github&logoColor=white" alt="Evir"></a>
+<br>
+Local-first desktop AI agent powered by your own models — files, terminal, tools.
+<br>
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript"> <img src="https://img.shields.io/badge/React-61dafb?style=flat-square" alt="React"> <img src="https://img.shields.io/badge/Tauri-24c8db?style=flat-square" alt="Tauri"> <img src="https://img.shields.io/badge/local-first-10b981?style=flat-square" alt="local-first">
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/Chorus"><img src="https://img.shields.io/badge/Chorus-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Chorus"></a>
+<br>
+Local-first workspace where AI agents communicate and collaborate across CLIs, devices, and teams.
+<br>
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript"> <img src="https://img.shields.io/badge/agents-8b5cf6?style=flat-square" alt="agents"> <img src="https://img.shields.io/badge/local-first-10b981?style=flat-square" alt="local-first"> <img src="https://img.shields.io/badge/CLI-64748b?style=flat-square" alt="CLI">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/awesome-skills"><img src="https://img.shields.io/badge/awesome--skills-db2777?style=for-the-badge&logo=github&logoColor=white" alt="awesome-skills"></a>
+<br>
+Curated agent skills & engineering practices — auto-published to ClawHub via CI.
+<br>
+<img src="https://img.shields.io/badge/OpenClaw-111827?style=flat-square" alt="OpenClaw"> <img src="https://img.shields.io/badge/skills-ec4899?style=flat-square" alt="skills"> <img src="https://img.shields.io/badge/CI/CD-f59e0b?style=flat-square" alt="CI/CD"> <img src="https://img.shields.io/badge/ClawHub-db2777?style=flat-square" alt="ClawHub">
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/LLM-101"><img src="https://img.shields.io/badge/LLM--101-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="LLM-101"></a>
+<br>
+A zero-to-one AI knowledge map: LLM → RAG → Agent → MCP → coding agents.
+<br>
+<img src="https://img.shields.io/badge/LLM-2563eb?style=flat-square" alt="LLM"> <img src="https://img.shields.io/badge/RAG-0ea5e9?style=flat-square" alt="RAG"> <img src="https://img.shields.io/badge/Agent-8b5cf6?style=flat-square" alt="Agent"> <img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87%E8%AF%BE%E7%A8%8B-16a34a?style=flat-square" alt="中文课程">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/build-meta-injector"><img src="https://img.shields.io/badge/build--meta--injector-d97706?style=for-the-badge&logo=github&logoColor=white" alt="build-meta-injector"></a>
+<br>
+Inject build time, version & Git metadata into HTML. Vite / Webpack / Rollup / Rspack / esbuild.
+<br>
+<img src="https://img.shields.io/badge/Vite-646cff?style=flat-square" alt="Vite"> <img src="https://img.shields.io/badge/Webpack-8dd6ff?style=flat-square" alt="Webpack"> <img src="https://img.shields.io/badge/Rollup-ef4444?style=flat-square" alt="Rollup"> <img src="https://img.shields.io/badge/plugin-f59e0b?style=flat-square" alt="plugin">
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/my-personal-site"><img src="https://img.shields.io/badge/my--personal--site-4f46e5?style=for-the-badge&logo=github&logoColor=white" alt="my-personal-site"></a>
+<br>
+Personal blog & portfolio — 52 curated deep-dives. React 19 · Supabase · Vercel Edge.
+<br>
+<img src="https://img.shields.io/badge/React%2019-61dafb?style=flat-square" alt="React 19"> <img src="https://img.shields.io/badge/Supabase-3ecf8e?style=flat-square" alt="Supabase"> <img src="https://img.shields.io/badge/PWA-525252?style=flat-square" alt="PWA"> <img src="https://img.shields.io/badge/blog-8b5cf6?style=flat-square" alt="blog">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/study-mode"><img src="https://img.shields.io/badge/study--mode-0284c7?style=for-the-badge&logo=github&logoColor=white" alt="study-mode"></a>
+<br>
+Browser extension that turns distracting tabs into a calm, focused study space.
+<br>
+<img src="https://img.shields.io/badge/Extension-0284c7?style=flat-square" alt="Extension"> <img src="https://img.shields.io/badge/MV3-f59e0b?style=flat-square" alt="MV3"> <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript"> <img src="https://img.shields.io/badge/focus-10b981?style=flat-square" alt="focus">
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ## What I'm exploring
 

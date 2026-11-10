@@ -30,15 +30,66 @@
 
 ## 代表作品
 
-<p align="left">
-<a href="https://github.com/z-Zihan/Evir"><img src="./assets/cards/evir-zh.svg?v=4" width="48%" alt="Evir — 由你自己的模型驱动的本地优先桌面 AI Agent"></a><a href="https://github.com/z-Zihan/Chorus"><img src="./assets/cards/chorus-zh.svg?v=4" width="48%" alt="Chorus — AI Agent 的本地优先协作工作区"></a>
-  <br>
-<a href="https://github.com/z-Zihan/awesome-skills"><img src="./assets/cards/awesome-skills-zh.svg?v=4" width="48%" alt="awesome-skills — 经 CI 自动发布到 ClawHub 的技能精选"></a><a href="https://github.com/z-Zihan/LLM-101"><img src="./assets/cards/llm-101-zh.svg?v=4" width="48%" alt="LLM-101 — 从 0 开始的 AI 知识地图"></a>
-  <br>
-<a href="https://github.com/z-Zihan/build-meta-injector"><img src="./assets/cards/build-meta-injector-zh.svg?v=4" width="48%" alt="build-meta-injector — 把构建元数据注入 HTML"></a><a href="https://github.com/z-Zihan/my-personal-site"><img src="./assets/cards/my-personal-site-zh.svg?v=4" width="48%" alt="my-personal-site — 个人博客与作品集"></a>
-  <br>
-<a href="https://github.com/z-Zihan/study-mode"><img src="./assets/cards/study-mode-zh.svg?v=4" width="48%" alt="study-mode — 专注学习模式的浏览器扩展"></a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/Evir"><img src="https://img.shields.io/badge/Evir-009488?style=for-the-badge&logo=github&logoColor=white" alt="Evir"></a>
+<br>
+由你自己的模型驱动的本地优先桌面 AI Agent——文件、终端、工具全掌控。
+<br>
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript"> <img src="https://img.shields.io/badge/React-61dafb?style=flat-square" alt="React"> <img src="https://img.shields.io/badge/Tauri-24c8db?style=flat-square" alt="Tauri"> <img src="https://img.shields.io/badge/local-first-10b981?style=flat-square" alt="local-first">
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/Chorus"><img src="https://img.shields.io/badge/Chorus-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="Chorus"></a>
+<br>
+AI Agent 的本地优先协作工作区，跨 CLI、设备与团队沟通与协作。
+<br>
+<img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript"> <img src="https://img.shields.io/badge/agents-8b5cf6?style=flat-square" alt="agents"> <img src="https://img.shields.io/badge/local-first-10b981?style=flat-square" alt="local-first"> <img src="https://img.shields.io/badge/CLI-64748b?style=flat-square" alt="CLI">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/awesome-skills"><img src="https://img.shields.io/badge/awesome--skills-db2777?style=for-the-badge&logo=github&logoColor=white" alt="awesome-skills"></a>
+<br>
+日常开发技能与工程实践精选，经 CI 自动发布到 ClawHub。
+<br>
+<img src="https://img.shields.io/badge/OpenClaw-111827?style=flat-square" alt="OpenClaw"> <img src="https://img.shields.io/badge/skills-ec4899?style=flat-square" alt="skills"> <img src="https://img.shields.io/badge/CI/CD-f59e0b?style=flat-square" alt="CI/CD"> <img src="https://img.shields.io/badge/ClawHub-db2777?style=flat-square" alt="ClawHub">
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/LLM-101"><img src="https://img.shields.io/badge/LLM--101-2563eb?style=for-the-badge&logo=github&logoColor=white" alt="LLM-101"></a>
+<br>
+从 0 开始的 AI 知识地图：LLM → RAG → Agent → MCP → Coding Agent。
+<br>
+<img src="https://img.shields.io/badge/LLM-2563eb?style=flat-square" alt="LLM"> <img src="https://img.shields.io/badge/RAG-0ea5e9?style=flat-square" alt="RAG"> <img src="https://img.shields.io/badge/Agent-8b5cf6?style=flat-square" alt="Agent"> <img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87%E8%AF%BE%E7%A8%8B-16a34a?style=flat-square" alt="中文课程">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/build-meta-injector"><img src="https://img.shields.io/badge/build--meta--injector-d97706?style=for-the-badge&logo=github&logoColor=white" alt="build-meta-injector"></a>
+<br>
+把构建时间、版本与 Git 元数据注入 HTML，支持 Vite / Webpack / Rollup / Rspack / esbuild。
+<br>
+<img src="https://img.shields.io/badge/Vite-646cff?style=flat-square" alt="Vite"> <img src="https://img.shields.io/badge/Webpack-8dd6ff?style=flat-square" alt="Webpack"> <img src="https://img.shields.io/badge/Rollup-ef4444?style=flat-square" alt="Rollup"> <img src="https://img.shields.io/badge/plugin-f59e0b?style=flat-square" alt="plugin">
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/my-personal-site"><img src="https://img.shields.io/badge/my--personal--site-4f46e5?style=for-the-badge&logo=github&logoColor=white" alt="my-personal-site"></a>
+<br>
+个人博客与作品集，52 篇精选长文。React 19 · Supabase · Vercel Edge。
+<br>
+<img src="https://img.shields.io/badge/React%2019-61dafb?style=flat-square" alt="React 19"> <img src="https://img.shields.io/badge/Supabase-3ecf8e?style=flat-square" alt="Supabase"> <img src="https://img.shields.io/badge/PWA-525252?style=flat-square" alt="PWA"> <img src="https://img.shields.io/badge/blog-8b5cf6?style=flat-square" alt="blog">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/z-Zihan/study-mode"><img src="https://img.shields.io/badge/study--mode-0284c7?style=for-the-badge&logo=github&logoColor=white" alt="study-mode"></a>
+<br>
+浏览器扩展：把摸鱼的标签页变成安静专注的学习空间。
+<br>
+<img src="https://img.shields.io/badge/Extension-0284c7?style=flat-square" alt="Extension"> <img src="https://img.shields.io/badge/MV3-f59e0b?style=flat-square" alt="MV3"> <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript"> <img src="https://img.shields.io/badge/focus-10b981?style=flat-square" alt="focus">
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ## 我正在探索
 
